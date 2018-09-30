@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AcademITSchool.iml" filepath="$PROJECT_DIR$/AcademITSchool.iml" />
       <module fileurl="file://$PROJECT_DIR$/Range/Range.iml" filepath="$PROJECT_DIR$/Range/Range.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SCV/SCV.iml" filepath="$PROJECT_DIR$/SCV/SCV.iml" />
     </modules>
   </component>
 </project>

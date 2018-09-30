@@ -1,38 +1,10 @@
+package ru.nsu.mmf.g16121.ddt;
+
 import java.util.Scanner;
 
-public class Range {
-    private double from;
-    private double to;
+import ru.nsu.mmf.g16121.ddt.math.Range;
 
-    public Range(double from, double to) {
-        this.from = from;
-        this.to = to;
-    }
-
-    public void setFrom(double from) {
-        this.from = from;
-    }
-
-    public void setTo(double to) {
-        this.to = to;
-    }
-
-    public double getFrom() {
-        return from;
-    }
-
-    public double getTo() {
-        return to;
-    }
-
-    public double getLength() {
-        return to - from;
-    }
-
-    public boolean isInside(double number) {
-        return number >= from && number <= to;
-    }
-
+public class Main {
     public static void main(String[] args) {
         Range range = new Range(-7, 0);
 
@@ -68,6 +40,45 @@ public class Range {
             System.out.println("Число принадлежит диапазону");
         } else {
             System.out.println("Число не принадлежит диапазону");
+        }
+
+        Range range1 = new Range(1, 6);
+        Range range2 = new Range(5, 8);
+
+        System.out.print("Пересечение диапозонов: ");
+        range1.print();
+        System.out.print("и ");
+        range2.print();
+        System.out.println(":");
+        range = Range.getIntersection(range1, range2);
+        if (range != null) {
+            range.print();
+        }
+        System.out.println();
+
+        System.out.print("Объединение диапозонов: ");
+        range1.print();
+        System.out.print("и ");
+        range2.print();
+        System.out.println(":");
+        Range[] add = Range.getAssociation(range1, range2);
+        for (Range elem : add) {
+            elem.print();
+            System.out.print(" ");
+        }
+        System.out.println();
+
+        System.out.print("Разность диапозонов: ");
+        range1.print();
+        System.out.print("и ");
+        range2.print();
+        System.out.println(":");
+        Range[] del = Range.getAddition(range1, range2);
+        if (del != null) {
+            for (Range elem : del) {
+                elem.print();
+                System.out.print(" ");
+            }
         }
     }
 }
