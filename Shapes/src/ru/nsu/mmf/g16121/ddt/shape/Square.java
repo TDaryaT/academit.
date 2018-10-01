@@ -1,6 +1,6 @@
 package ru.nsu.mmf.g16121.ddt.shape;
 
-public class Square extends Shape {
+public class Square implements Shape {
     private double side;
 
     public Square(double side) {

@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba09ad3c-dbd8-4f27-bf33-00087a05441f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/SCV/SCV.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCV/src/ru/nsu/mmf/g16121/ddt/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCV/src/ru/nsu/mmf/g16121/ddt/scv/CSV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/shape/ShapeComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vector/Vector.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vector/src/ru/nsu/mmf/g16121/ddt/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vector/src/ru/nsu/mmf/g16121/ddt/vector/Vector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/shape/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/shape/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/shape/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/shape/Rectangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/shape/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/shape/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/shape/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/shape/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/shape/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/shape/Triangle.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,7 +41,7 @@
           <entry key="gitignore" value="1" />
           <entry key="html" value="3" />
           <entry key="iml" value="1" />
-          <entry key="java" value="18" />
+          <entry key="java" value="31" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
@@ -45,18 +49,18 @@
         <counts>
           <entry key="HTML" value="3" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="18" />
+          <entry key="JAVA" value="31" />
           <entry key="PLAIN_TEXT" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="5209" />
+          <entry key="java" value="6204" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5209" />
+          <entry key="JAVA" value="6204" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -67,109 +71,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/shape/Shape.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-              <folding>
-                <element signature="e#88#89#0" expanded="true" />
-                <element signature="e#112#113#0" expanded="true" />
-                <element signature="e#145#146#0" expanded="true" />
-                <element signature="e#169#170#0" expanded="true" />
-                <element signature="e#200#201#0" expanded="true" />
-                <element signature="e#224#225#0" expanded="true" />
-                <element signature="e#260#261#0" expanded="true" />
-                <element signature="e#284#285#0" expanded="true" />
-                <element signature="e#316#317#0" expanded="true" />
-                <element signature="e#343#344#0" expanded="true" />
-                <element signature="e#390#391#0" expanded="true" />
-                <element signature="e#417#418#0" expanded="true" />
-                <element signature="e#441#442#0" expanded="true" />
-                <element signature="e#465#466#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="170">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/shape/Square.java">
+        <entry file="file://$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/shape/ShapeComparator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="46" column="3" selection-start-line="46" selection-start-column="3" selection-end-line="50" selection-end-column="5" />
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
               <folding>
-                <element signature="e#94#95#0" expanded="true" />
-                <element signature="e#126#127#0" expanded="true" />
-                <element signature="e#232#233#0" expanded="true" />
-                <element signature="e#271#272#0" expanded="true" />
-                <element signature="e#227#228#0" expanded="true" />
-                <element signature="e#266#267#0" expanded="true" />
-                <element signature="e#403#404#0" expanded="true" />
-                <element signature="e#461#462#0" expanded="true" />
-                <element signature="e#410#411#0" expanded="true" />
-                <element signature="e#444#445#0" expanded="true" />
-                <element signature="e#838#839#0" expanded="true" />
-                <element signature="e#877#878#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/shape/Triangle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="74" column="4" selection-start-line="74" selection-start-column="4" selection-end-line="85" selection-end-column="5" />
-              <folding>
-                <element signature="e#419#420#0" expanded="true" />
-                <element signature="e#496#497#0" expanded="true" />
-                <element signature="e#528#529#0" expanded="true" />
-                <element signature="e#605#606#0" expanded="true" />
-                <element signature="e#637#638#0" expanded="true" />
-                <element signature="e#714#715#0" expanded="true" />
-                <element signature="e#1085#1086#0" expanded="true" />
-                <element signature="e#1147#1148#0" expanded="true" />
-                <element signature="e#1213#1214#0" expanded="true" />
-                <element signature="e#1275#1276#0" expanded="true" />
-                <element signature="e#1306#1307#0" expanded="true" />
-                <element signature="e#1380#1381#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/shape/Rectangle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="60" column="1" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
-              <folding>
-                <element signature="e#223#224#0" expanded="true" />
-                <element signature="e#251#252#0" expanded="true" />
-                <element signature="e#283#284#0" expanded="true" />
-                <element signature="e#311#312#0" expanded="true" />
-                <element signature="e#359#360#0" expanded="true" />
-                <element signature="e#396#397#0" expanded="true" />
-                <element signature="e#455#456#0" expanded="true" />
-                <element signature="e#517#518#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/shape/Circle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="611">
-              <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
-              <folding>
-                <element signature="e#141#142#0" expanded="true" />
-                <element signature="e#177#178#0" expanded="true" />
-                <element signature="e#480#481#0" expanded="true" />
-                <element signature="e#539#540#0" expanded="true" />
-                <element signature="e#510#511#0" expanded="true" />
-                <element signature="e#562#563#0" expanded="true" />
-                <element signature="e#598#599#0" expanded="true" />
-                <element signature="e#655#656#0" expanded="true" />
-                <element signature="e#969#970#0" expanded="true" />
-                <element signature="e#1016#1017#0" expanded="true" />
+                <element signature="e#149#150#0" expanded="true" />
+                <element signature="e#221#222#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -178,8 +93,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="71" column="29" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
+            <state relative-caret-position="210">
+              <caret line="71" column="26" selection-start-line="71" selection-start-column="26" selection-end-line="71" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -192,9 +107,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="package-info" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -237,7 +152,14 @@
         <option value="$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/shape/Triangle.java" />
         <option value="$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/shape/Rectangle.java" />
         <option value="$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/shape/Circle.java" />
+        <option value="$PROJECT_DIR$/Vector/src/ru/nsu/mmf/g16121/ddt/vector/Vector.java" />
         <option value="$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/shape/Shape.java" />
+        <option value="$PROJECT_DIR$/SCV/src/ru/nsu/mmf/g16121/ddt/scv/SCV.java" />
+        <option value="$PROJECT_DIR$/SCV/src/ru/nsu/mmf/g16121/ddt/SCV.java" />
+        <option value="$PROJECT_DIR$/SCV/src/ru/nsu/mmf/g16121/ddt/scv/CSV.java" />
+        <option value="$PROJECT_DIR$/SCV/src/ru/nsu/mmf/g16121/ddt/main/Main.java" />
+        <option value="$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/shape/Comparator.java" />
+        <option value="$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/shape/ShapeComparator.java" />
         <option value="$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/main/Main.java" />
       </list>
     </option>
@@ -266,6 +188,53 @@
               <item name="AcademITSchool" type="462c0819:PsiDirectoryNode" />
               <item name="Shapes" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="AcademITSchool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AcademITSchool" type="462c0819:PsiDirectoryNode" />
+              <item name="Shapes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AcademITSchool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AcademITSchool" type="462c0819:PsiDirectoryNode" />
+              <item name="Shapes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ddt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AcademITSchool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AcademITSchool" type="462c0819:PsiDirectoryNode" />
+              <item name="Shapes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ddt" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AcademITSchool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AcademITSchool" type="462c0819:PsiDirectoryNode" />
+              <item name="Shapes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ddt" type="462c0819:PsiDirectoryNode" />
+              <item name="shape" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AcademITSchool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AcademITSchool" type="462c0819:PsiDirectoryNode" />
+              <item name="Vector" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AcademITSchool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AcademITSchool" type="462c0819:PsiDirectoryNode" />
+              <item name="Vector" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AcademITSchool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AcademITSchool" type="462c0819:PsiDirectoryNode" />
+              <item name="Vector" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ddt" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -289,7 +258,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538378080830" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538417605818" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -312,6 +281,19 @@
     <configuration name="CSV" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CSV" />
       <module name="SCV" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.nsu.mmf.g16121.ddt.main.Main" />
+      <module name="SCV" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.nsu.mmf.g16121.ddt.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -340,10 +322,12 @@
       <item itemvalue="Application.Range" />
       <item itemvalue="Application.CSV" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Range" />
         <item itemvalue="Application.CSV" />
       </list>
@@ -366,7 +350,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4967213" visible="true" weight="0.2655068" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4967213" visible="true" weight="0.2655068" />
       <window_info id="Structure" order="1" sideWeight="0.5032787" side_tool="true" weight="0.2655068" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -375,7 +359,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49848714" visible="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" weight="0.3295082" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -383,7 +367,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.8721634" weight="0.3295082" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.12783661" side_tool="true" weight="0.3295082" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49924356" weight="0.3295082" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.3295082" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -436,16 +420,9 @@
     <entry file="file://$PROJECT_DIR$/SCV/SCV.iml" />
     <entry file="file://$PROJECT_DIR$/SCV/inCSV.csv" />
     <entry file="file://$PROJECT_DIR$/inHTML.html" />
-    <entry file="file://$PROJECT_DIR$/SCV/inHTML.html" />
+    <entry file="file://$PROJECT_DIR$/SCV/inHtml.html" />
     <entry file="file://$PROJECT_DIR$/SCV/src/CSV.java" />
     <entry file="file://$PROJECT_DIR$/SCV/inCSV_bcp.csv" />
-    <entry file="file://C:/CSV/src/CSV.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="60" column="35" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/package-info.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -466,6 +443,42 @@
           <folding>
             <element signature="e#2598#2599#0" expanded="true" />
             <element signature="e#2670#2671#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/shape/Circle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="611">
+          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+          <folding>
+            <element signature="e#141#142#0" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
+            <element signature="e#969#970#0" expanded="true" />
+            <element signature="e#1016#1017#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/shape/Rectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="60" column="1" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
+          <folding>
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -491,23 +504,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/shape/Rectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="60" column="1" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
-          <folding>
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#455#456#0" expanded="true" />
-            <element signature="e#517#518#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/shape/Square.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
@@ -529,52 +525,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/shape/Circle.java">
+    <entry file="file://$PROJECT_DIR$/Vector/src/ru/nsu/mmf/g16121/ddt/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="611">
-          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vector/src/ru/nsu/mmf/g16121/ddt/vector/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/CSV/src/CSV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-183">
+          <caret line="60" column="35" selection-end-line="86" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCV/src/ru/nsu/mmf/g16121/ddt/SCV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" lean-forward="true" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCV/src/ru/nsu/mmf/g16121/ddt/scv/CSV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCV/src/ru/nsu/mmf/g16121/ddt/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
-            <element signature="e#141#142#0" expanded="true" />
-            <element signature="e#177#178#0" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
-            <element signature="e#539#540#0" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#562#563#0" expanded="true" />
-            <element signature="e#598#599#0" expanded="true" />
-            <element signature="e#655#656#0" expanded="true" />
-            <element signature="e#969#970#0" expanded="true" />
-            <element signature="e#1016#1017#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/shape/Shape.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/shape/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/shape/ShapeComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
           <folding>
-            <element signature="e#88#89#0" expanded="true" />
-            <element signature="e#112#113#0" expanded="true" />
-            <element signature="e#145#146#0" expanded="true" />
-            <element signature="e#169#170#0" expanded="true" />
-            <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
-            <element signature="e#260#261#0" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#343#344#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#149#150#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="71" column="29" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
+        <state relative-caret-position="210">
+          <caret line="71" column="26" selection-start-line="71" selection-start-column="26" selection-end-line="71" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -633,7 +657,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Shapes</last-edited>
+          <last-edited>AcademITSchool</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -2,7 +2,7 @@ package ru.nsu.mmf.g16121.ddt.shape;
 
 import java.util.Arrays;
 
-public class Rectangle extends Shape {
+public class Rectangle implements Shape {
     private double width;
     private double height;
     private final static int perimeterCoefficient = 2;

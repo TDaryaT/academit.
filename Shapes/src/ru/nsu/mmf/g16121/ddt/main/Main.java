@@ -1,22 +1,18 @@
 package ru.nsu.mmf.g16121.ddt.main;
 
-import ru.nsu.mmf.g16121.ddt.shape.Rectangle;
-import ru.nsu.mmf.g16121.ddt.shape.Square;
-import ru.nsu.mmf.g16121.ddt.shape.Triangle;
-import ru.nsu.mmf.g16121.ddt.shape.Circle;
-import ru.nsu.mmf.g16121.ddt.shape.Shape;
+import ru.nsu.mmf.g16121.ddt.shape.*;
+
+import java.util.Arrays;
 
 public class Main {
     private static Shape getMaxShape(Shape... shapes) {
-        double maxArea = shapes[0].getArea();
-        Shape support = shapes[0];
-        for (Shape elem : shapes) {
-            if (elem.getArea() > maxArea) {
-                maxArea = elem.getArea();
-                support = elem;
-            }
-        }
-        return support;
+        Arrays.sort(shapes, new ShapeComparator());
+        return shapes[shapes.length - 1];
+    }
+
+    private static Shape getSecondShape(Shape... shapes) {
+        Arrays.sort(shapes, new ShapeComparator());
+        return shapes[shapes.length - 2];
     }
 
     public static void main(String[] args) {
@@ -70,5 +66,12 @@ public class Main {
         System.out.println("Высота = " + maxShape.getHeight());
         System.out.println("Периметр = " + maxShape.getPerimeter());
         System.out.println();
+
+
+        Shape secondShape = getSecondShape(s1, s2, s3, s4, s5, s6, s7, s8);
+        System.out.println("Площадь второй по величине фигуры = " + secondShape.getArea());
+        System.out.println("Ширина = " + secondShape.getWidth());
+        System.out.println("Высота = " + secondShape.getHeight());
+        System.out.println("Периметр = " + secondShape.getPerimeter());
     }
 }

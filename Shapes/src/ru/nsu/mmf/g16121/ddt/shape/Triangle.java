@@ -2,7 +2,7 @@ package ru.nsu.mmf.g16121.ddt.shape;
 
 import java.util.Arrays;
 
-public class Triangle extends Shape {
+public class Triangle implements Shape {
     private double x1;
     private double x2;
     private double x3;

@@ -1,6 +1,6 @@
 package ru.nsu.mmf.g16121.ddt.shape;
 
-public class Circle extends Shape {
+public class Circle implements Shape {
     private double radius;
     private final int diamCoefficient = 2;
 
