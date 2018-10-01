@@ -1,16 +1,31 @@
 package ru.nsu.mmf.g16121.ddt.shape;
 
 public class Shape {
-    public double getWidth(){
+    public double getWidth() {
         return 0;
     }
-    public double getHeight(){
+
+    public double getHeight() {
         return 0;
     }
-    public double getArea(){
+
+    public double getArea() {
         return 0;
     }
-    public double getPerimeter(){
+
+    public double getPerimeter() {
+        return 0;
+    }
+
+    public String toString() {
+        return null;
+    }
+
+    public boolean equals(Object obj) {
+        return false;
+    }
+
+    public int hashCode() {
         return 0;
     }
 }

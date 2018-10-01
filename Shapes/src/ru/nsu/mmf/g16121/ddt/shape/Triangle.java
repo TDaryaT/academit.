@@ -1,5 +1,7 @@
 package ru.nsu.mmf.g16121.ddt.shape;
 
+import java.util.Arrays;
+
 public class Triangle extends Shape {
     private double x1;
     private double x2;
@@ -29,22 +31,58 @@ public class Triangle extends Shape {
         return Math.sqrt(Math.pow(x3 - x1, 2) + Math.pow(y3 - y1, 2));
     }
 
+    @Override
     public double getWidth() {
         return getMax(x1, x2, x3) - getMin(x1, x2, x3);
     }
 
+    @Override
     public double getHeight() {
         return getMax(y1, y2, y3) - getMin(y1, y2, y3);
     }
 
+    @Override
     public double getArea() {
-        double semiPerimeter = getPerimeter(this) * 0.5;
+        double semiPerimeter = this.getPerimeter() * 0.5;
         return Math.sqrt(semiPerimeter * (semiPerimeter - this.getSide1()) *
                 (semiPerimeter - this.getSide2()) * (semiPerimeter - this.getSide3()));
     }
 
-    public double getPerimeter(Triangle triangle) {
-        return triangle.getSide1() + triangle.getSide2() + triangle.getSide3();
+    @Override
+    public double getPerimeter() {
+        return this.getSide1() + this.getSide2() + this.getSide3();
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == this) {
+            return true;
+        }
+        if (obj == null || obj.getClass() != this.getClass()) {
+            return false;
+        }
+        Triangle p = (Triangle) obj;
+        return (x1 == p.x1) && (x2 == p.x2) && (x3 == p.x3)
+                && (y1 == p.y1) && (y2 == p.y2) && (y3 == p.y3);
+    }
+
+    @Override
+    public String toString() {
+        double[] support = {x1, y1, x2, y2, x3, y3};
+        return Arrays.toString(support);
+    }
+
+    @Override
+    public int hashCode() {
+        final int prime = 37;
+        int hash = 1;
+        hash = prime * hash + Double.hashCode(x1);
+        hash = prime * hash + Double.hashCode(x2);
+        hash = prime * hash + Double.hashCode(x3);
+        hash = prime * hash + Double.hashCode(y1);
+        hash = prime * hash + Double.hashCode(y2);
+        hash = prime * hash + Double.hashCode(y3);
+        return hash;
     }
 
     private static double getMax(double... numbers) {
