@@ -60,7 +60,7 @@ public class Main {
         System.out.print("и ");
         range2.print();
         System.out.println(":");
-        Range[] add = Range.getAssociation(range1, range2);
+        Range[] add = Range.getUnion(range1, range2);
         for (Range elem : add) {
             elem.print();
             System.out.print(" ");
