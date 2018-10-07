@@ -45,14 +45,14 @@ public class Vector {
     }
 
     public void addVector(Vector vector) {
-        int size = vector.getSize();
+        int size = (this.getSize() <= vector.getSize()) ? this.getSize() : vector.getSize();
         for (int i = 0; i < size; i++) {
             this.coordinate[i] += vector.coordinate[i];
         }
     }
 
     public void subVector(Vector vector) {
-        int size = vector.getSize();
+        int size = (this.getSize() <= vector.getSize()) ? this.getSize() : vector.getSize();
         for (int i = 0; i < size; i++) {
             this.coordinate[i] -= vector.coordinate[i];
         }
@@ -73,10 +73,9 @@ public class Vector {
     }
 
     public double length() {
-        int size = coordinate.length;
         double support = 0;
-        for (int i = 0; i < size; i++) {
-            support += Math.pow(this.coordinate[i], 2);
+        for (double elem : this.coordinate) {
+            support += Math.pow(elem, 2);
         }
         return Math.sqrt(support);
     }
@@ -115,26 +114,49 @@ public class Vector {
     }
 
     public static Vector addVector(Vector vector1, Vector vector2) {
-        int size = vector1.getSize();
-        Vector vector = vector1;
-        for (int i = 0; i < size; i++) {
-            vector.coordinate[i] += vector2.coordinate[i];
+        int size1 = vector1.getSize();
+        int size2 = vector2.getSize();
+        if (size1 >= size2) {
+            Vector vector = new Vector(vector1);
+            for (int i = 0; i < size2; i++) {
+                vector.coordinate[i] += vector2.coordinate[i];
+            }
+            return vector;
+        } else {
+            Vector vector = new Vector(vector2);
+            for (int i = 0; i < size1; i++) {
+                vector.coordinate[i] += vector2.coordinate[i];
+            }
+            return vector;
         }
-        return vector;
     }
 
     public static Vector subVector(Vector vector1, Vector vector2) {
-        int size = vector1.getSize();
-        Vector vector = vector1;
-        for (int i = 0; i < size; i++) {
-            vector.coordinate[i] -= vector2.coordinate[i];
+        int size1 = vector1.getSize();
+        int size2 = vector2.getSize();
+        if (size1 >= size2) {
+            Vector vector = new Vector(vector1);
+            for (int i = 0; i < size2; i++) {
+                vector.coordinate[i] -= vector2.coordinate[i];
+            }
+            return vector;
+        } else {
+            Vector vector = new Vector(size2);
+            for (int i = 0; i < size1; i++) {
+                vector.coordinate[i] = vector1.coordinate[i] - vector2.coordinate[i];
+            }
+            for (int i = size1; i < size2; i++) {
+                vector.coordinate[i] = -vector2.coordinate[i];
+            }
+            return vector;
         }
-        return vector;
+
+
     }
 
     public static Vector mulVector(Vector vector, double number) {
         int size = vector.getSize();
-        Vector vector2 = vector;
+        Vector vector2 = new Vector(vector);
         for (int i = 0; i < size; i++) {
             vector2.coordinate[i] *= number;
         }

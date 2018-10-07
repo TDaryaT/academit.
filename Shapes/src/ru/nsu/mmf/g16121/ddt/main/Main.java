@@ -6,12 +6,12 @@ import java.util.Arrays;
 
 public class Main {
     private static Shape getMaxShape(Shape... shapes) {
-        Arrays.sort(shapes, new ShapeComparator());
+        Arrays.sort(shapes, new ShapeComparatorArea());
         return shapes[shapes.length - 1];
     }
 
     private static Shape getSecondShape(Shape... shapes) {
-        Arrays.sort(shapes, new ShapeComparator());
+        Arrays.sort(shapes, new ShapeComparatorPerimeter());
         return shapes[shapes.length - 2];
     }
 

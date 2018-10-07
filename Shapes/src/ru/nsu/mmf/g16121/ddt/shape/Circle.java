@@ -2,7 +2,7 @@ package ru.nsu.mmf.g16121.ddt.shape;
 
 public class Circle implements Shape {
     private double radius;
-    private final int diamCoefficient = 2;
+    private static final int DIAM_COEFFICIENT = 2;
 
     public Circle(double radius) {
         this.radius = radius;
@@ -11,12 +11,12 @@ public class Circle implements Shape {
     @Override
     public double getWidth() {
 
-        return diamCoefficient * radius;
+        return DIAM_COEFFICIENT * radius;
     }
 
     @Override
     public double getHeight() {
-        return diamCoefficient * radius;
+        return DIAM_COEFFICIENT * radius;
     }
 
     @Override
@@ -26,7 +26,7 @@ public class Circle implements Shape {
 
     @Override
     public double getPerimeter() {
-        return diamCoefficient * Math.PI * radius;
+        return DIAM_COEFFICIENT * Math.PI * radius;
     }
 
     @Override

@@ -19,16 +19,20 @@ public class Triangle implements Shape {
         this.y3 = y3;
     }
 
-    public double getSide1() {
+    private static double getCutLength(double x1, double x2, double y1, double y2) {
         return Math.sqrt(Math.pow(x1 - x2, 2) + Math.pow(y1 - y2, 2));
     }
 
-    public double getSide2() {
-        return Math.sqrt(Math.pow(x2 - x3, 2) + Math.pow(y2 - y3, 2));
+    private double getSide1() {
+        return getCutLength(x1, x2, y1, y2);
     }
 
-    public double getSide3() {
-        return Math.sqrt(Math.pow(x3 - x1, 2) + Math.pow(y3 - y1, 2));
+    private double getSide2() {
+        return getCutLength(x2, x3, y2, y3);
+    }
+
+    private double getSide3() {
+        return getCutLength(x3, x1, y3, y1);
     }
 
     @Override
