@@ -3,7 +3,7 @@ package ru.nsu.mmf.g16121.ddt.main;
 import ru.nsu.mmf.g16121.ddt.vector.Vector;
 
 import static ru.nsu.mmf.g16121.ddt.vector.Vector.addVector;
-import static ru.nsu.mmf.g16121.ddt.vector.Vector.mulVector;
+import static ru.nsu.mmf.g16121.ddt.vector.Vector.mul;
 import static ru.nsu.mmf.g16121.ddt.vector.Vector.subVector;
 
 public class Main {
@@ -31,7 +31,7 @@ public class Main {
         System.out.println("его размерность = " + vector3.getSize());
         System.out.println("его длина = " + vector3.length());
         vector3.subVector(vector1);
-        System.out.println("vector 3 - vector 1 = " + vector3.toString());
+        System.out.println("vector 3 = vector 3 - vector 1 = " + vector3.toString());
         System.out.println();
 
         Vector vector4 = new Vector(4, support);
@@ -39,23 +39,23 @@ public class Main {
         System.out.println("его размерность = " + vector4.getSize());
         System.out.println("его длина = " + vector4.length());
         vector4.addVector(vector1);
-        System.out.println("vector 4 + vector 1 = " + vector4.toString());
+        System.out.println("vector 4 = vector 4 + vector 1 = " + vector4.toString());
+        vector1.addVector(vector4);
+        System.out.println("vector 1 = vector 1 + new vector 4 = " + vector1.toString());
         System.out.println();
 
         int alpha = 6;
-        vector1.mulVector(6);
+        vector1.mul(6);
         System.out.println("vector 1 * " + alpha + " = " + vector1);
         vector1.turnVector();
-        System.out.println("развернутый вектор vector1 * " + alpha + " это " + vector1);
+        System.out.println("vector 1 = развернутый вектор vector1 * " + alpha + " это " + vector1);
         System.out.println();
 
         System.out.println("теперь проверим статические методы:");
         Vector vector5 = new Vector(addVector(vector1, vector3));
-        System.out.println("vector 1 + vector 3 = " + vector5);
+        System.out.println("vector 5 = vector 1 + vector 3 = " + vector5);
         Vector vector6 = new Vector(subVector(vector1, vector3));
-        System.out.println("vector 1 - vector 3 = " + vector6);
-        Vector vector7 = new Vector(mulVector(vector1, alpha));
-        System.out.println("vector 1 * " + alpha + " = " + vector7);
-
+        System.out.println("vector 6 = vector 1 - vector 3 = " + vector6);
+        System.out.println("vector 5 * vector 6 = " + mul(vector5, vector6));
     }
 }
