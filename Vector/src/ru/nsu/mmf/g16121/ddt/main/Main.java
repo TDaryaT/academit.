@@ -3,7 +3,7 @@ package ru.nsu.mmf.g16121.ddt.main;
 import ru.nsu.mmf.g16121.ddt.vector.Vector;
 
 import static ru.nsu.mmf.g16121.ddt.vector.Vector.addVector;
-import static ru.nsu.mmf.g16121.ddt.vector.Vector.mul;
+import static ru.nsu.mmf.g16121.ddt.vector.Vector.scalarMul;
 import static ru.nsu.mmf.g16121.ddt.vector.Vector.subVector;
 
 public class Main {
@@ -45,7 +45,7 @@ public class Main {
         System.out.println();
 
         int alpha = 6;
-        vector1.mul(6);
+        vector1.scalarMul(6);
         System.out.println("vector 1 * " + alpha + " = " + vector1);
         vector1.turnVector();
         System.out.println("vector 1 = развернутый вектор vector1 * " + alpha + " это " + vector1);
@@ -56,6 +56,6 @@ public class Main {
         System.out.println("vector 5 = vector 1 + vector 3 = " + vector5);
         Vector vector6 = new Vector(subVector(vector1, vector3));
         System.out.println("vector 6 = vector 1 - vector 3 = " + vector6);
-        System.out.println("vector 5 * vector 6 = " + mul(vector5, vector6));
+        System.out.println("vector 5 * vector 6 = " + scalarMul(vector5, vector6));
     }
 }

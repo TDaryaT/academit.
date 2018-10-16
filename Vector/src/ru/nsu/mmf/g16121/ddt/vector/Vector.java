@@ -83,7 +83,7 @@ public class Vector {
         }
     }
 
-    public void mul(double number) {
+    public void scalarMul(double number) {
         int size = coordinates.length;
         for (int i = 0; i < size; i++) {
             this.coordinates[i] *= number;
@@ -91,7 +91,7 @@ public class Vector {
     }
 
     public void turnVector() {
-        this.mul(-1.0);
+        this.scalarMul(-1.0);
     }
 
     public double length() {
@@ -149,7 +149,7 @@ public class Vector {
         return vector;
     }
 
-    public static double mul(Vector vector1, Vector vector2) {
+    public static double scalarMul(Vector vector1, Vector vector2) {
         if (vector1.getSize() != vector2.getSize()) {
             throw new IllegalArgumentException("Illegal Argument Exception");
         }
