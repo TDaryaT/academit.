@@ -34,39 +34,29 @@ public class Range {
     }
 
     public static Range getIntersection(Range range1, Range range2) {
-        if ((range1.to <= range2.from) || (range2.to <= range1.from)) {
+        if ((range1.to < range2.from) || (range2.to < range1.from)) {
             return null;
-        } else if ((range2.from <= range1.from) && (range1.to <= range2.to)) {
-            return new Range(range1.to,range1.from);
-        } else if ((range1.from < range2.from) && (range2.to < range1.to)) {
-            return new Range(range2.to,range2.from);
-        } else if ((range2.from > range1.from) && (range2.to > range1.to)) {
-            return new Range(range2.from, range1.to);
         } else {
-            return new Range(range1.from, range2.to);
+            double to = Math.max(range1.to, range2.to);
+            double from = Math.min(range1.from, range2.from);
+            return new Range(to, from);
         }
     }
 
     public static Range[] getUnion(Range range1, Range range2) {
-        if ((range1.to <= range2.from) || (range2.to <= range1.from)) {
-            return new Range[]{range1, range2};
+        if ((range1.to < range2.from) || (range2.to < range1.from)) {
+            return new Range[]{new Range(range1.to, range1.from), new Range(range2.to, range2.from)};
         } else {
-            if ((range1.from < range2.from) && (range1.to < range2.to)) {
-                return new Range[]{new Range(range1.from, range2.to)};
-            } else if ((range1.from < range2.from) && (range1.to > range2.to)) {
-                return new Range[]{range1};
-            } else if ((range2.from < range1.from) && (range2.to < range1.to)) {
-                return new Range[]{range2};
-            } else {
-                return new Range[]{new Range(range2.from, range1.to)};
-            }
+            double to = Math.min(range1.to, range2.to);
+            double from = Math.max(range1.from, range2.from);
+            return new Range[]{new Range(to, from)};
         }
     }
 
-    public static Range[] getAddition(Range range1, Range range2) {
-        if ((range1.to <= range2.from) || (range2.to <= range1.from)) {
-            return new Range[]{range1};
-        } else if (range1.from > range2.from && range1.to < range2.to) {
+    public static Range[] getDifference(Range range1, Range range2) {
+        if ((range1.to < range2.from) || (range2.to < range1.from)) {
+            return new Range[]{new Range(range1.to, range1.from)};
+        } else if (range1.from >= range2.from && range1.to <= range2.to) {
             return new Range[0];
         } else if (range2.from > range1.from && range2.to < range1.to) {
             return new Range[]{new Range(range1.from, range2.from), new Range(range2.to, range1.to)};

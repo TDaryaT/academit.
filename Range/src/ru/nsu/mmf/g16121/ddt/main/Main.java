@@ -1,6 +1,7 @@
 package ru.nsu.mmf.g16121.ddt.main;
 
 import java.util.Scanner;
+
 import ru.nsu.mmf.g16121.ddt.math.Range;
 
 public class Main {
@@ -72,8 +73,8 @@ public class Main {
         System.out.print("и ");
         range2.print();
         System.out.println(":");
-        Range[] del = Range.getAddition(range1, range2);
-        if (del != null) {
+        Range[] del = Range.getDifference(range1, range2);
+        if (del.length != 0) {
             for (Range elem : del) {
                 elem.print();
                 System.out.print(" ");
