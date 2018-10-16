@@ -5,12 +5,12 @@ import ru.nsu.mmf.g16121.ddt.shape.*;
 import java.util.Arrays;
 
 public class Main {
-    private static Shape getMaxShape(Shape... shapes) {
+    private static Shape getShapeWithMaxArea(Shape... shapes) {
         Arrays.sort(shapes, new ShapeComparatorArea());
         return shapes[shapes.length - 1];
     }
 
-    private static Shape getSecondShape(Shape... shapes) {
+    private static Shape getShapeWithSecondPerimeter(Shape... shapes) {
         Arrays.sort(shapes, new ShapeComparatorPerimeter());
         return shapes[shapes.length - 2];
     }
@@ -60,7 +60,7 @@ public class Main {
         Shape s7 = new Rectangle(3, 20);
         Shape s8 = new Circle(7);
 
-        Shape maxShape = getMaxShape(s1, s2, s3, s4, s5, s6, s7, s8);
+        Shape maxShape = getShapeWithMaxArea(s1, s2, s3, s4, s5, s6, s7, s8);
         System.out.println("Площадь максимальной фигуры = " + maxShape.getArea());
         System.out.println("Ширина = " + maxShape.getWidth());
         System.out.println("Высота = " + maxShape.getHeight());
@@ -68,7 +68,7 @@ public class Main {
         System.out.println();
 
 
-        Shape secondShape = getSecondShape(s1, s2, s3, s4, s5, s6, s7, s8);
+        Shape secondShape = getShapeWithSecondPerimeter(s1, s2, s3, s4, s5, s6, s7, s8);
         System.out.println("Площадь второй по величине фигуры = " + secondShape.getArea());
         System.out.println("Ширина = " + secondShape.getWidth());
         System.out.println("Высота = " + secondShape.getHeight());

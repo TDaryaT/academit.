@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Rectangle implements Shape {
     private double width;
     private double height;
-    private final static int perimeterCoefficient = 2;
+    private final static int PERIMETER_COEFFICIENT = 2;
 
     public Rectangle(double side1, double side2) {
         this.width = side1;
@@ -29,7 +29,7 @@ public class Rectangle implements Shape {
 
     @Override
     public double getPerimeter() {
-        return perimeterCoefficient * (height + width);
+        return PERIMETER_COEFFICIENT * (height + width);
     }
 
     @Override

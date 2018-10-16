@@ -10,7 +10,6 @@ public class Circle implements Shape {
 
     @Override
     public double getWidth() {
-
         return DIAM_COEFFICIENT * radius;
     }
 
