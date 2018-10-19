@@ -56,6 +56,8 @@ public class Main {
         System.out.println("vector 5 = vector 1 + vector 3 = " + vector5);
         Vector vector6 = new Vector(subVector(vector1, vector3));
         System.out.println("vector 6 = vector 1 - vector 3 = " + vector6);
+        vector6.addVector(new Vector(new double[]{0, 0, 0, 0, 0}));
+        System.out.println("vector 6 = " + vector6.toString());
         System.out.println("vector 5 * vector 6 = " + scalarMul(vector5, vector6));
     }
 }
