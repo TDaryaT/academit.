@@ -49,19 +49,27 @@ public class Vector {
 
     public void addVector(Vector vector) {
         int vectorSize = Math.max(this.getSize(), vector.getSize());
-        vector.coordinates = Arrays.copyOf(vector.coordinates, vectorSize);
-        coordinates = Arrays.copyOf(coordinates, vectorSize);
+        Vector support = new Vector(vector);
+        if (vectorSize > vector.getSize()) {
+            support.coordinates = Arrays.copyOf(support.coordinates, vectorSize);
+        } else if (vectorSize > this.getSize()) {
+            coordinates = Arrays.copyOf(coordinates, vectorSize);
+        }
         for (int i = 0; i < vectorSize; ++i) {
-            coordinates[i] += vector.coordinates[i];
+            coordinates[i] += support.coordinates[i];
         }
     }
 
     public void subVector(Vector vector) {
         int vectorSize = Math.max(this.getSize(), vector.getSize());
-        vector.coordinates = Arrays.copyOf(vector.coordinates, vectorSize);
-        coordinates = Arrays.copyOf(coordinates, vectorSize);
+        Vector support = new Vector(vector);
+        if (vectorSize > vector.getSize()) {
+            support.coordinates = Arrays.copyOf(support.coordinates, vectorSize);
+        } else if (vectorSize > this.getSize()) {
+            coordinates = Arrays.copyOf(coordinates, vectorSize);
+        }
         for (int i = 0; i < vectorSize; ++i) {
-            coordinates[i] -= vector.coordinates[i];
+            coordinates[i] -= support.coordinates[i];
         }
     }
 
@@ -113,8 +121,7 @@ public class Vector {
     }
 
     public int hashCode() {
-        final int prime = 37;
-        return prime + Arrays.hashCode(coordinates);
+        return Arrays.hashCode(coordinates);
     }
 
     public static Vector addVector(Vector vector1, Vector vector2) {
@@ -132,10 +139,15 @@ public class Vector {
     public static double scalarMul(Vector vector1, Vector vector2) {
         double mul = 0;
         int size = Math.max(vector1.getSize(), vector2.getSize());
-        vector1.coordinates = Arrays.copyOf(vector1.coordinates, size);
-        vector2.coordinates = Arrays.copyOf(vector2.coordinates, size);
+        Vector support1 = new Vector(vector1);
+        Vector support2 = new Vector(vector2);
+        if (size > vector1.getSize()) {
+            support1.coordinates = Arrays.copyOf(vector1.coordinates, size);
+        } else if (size > vector2.getSize()) {
+            support2.coordinates = Arrays.copyOf(vector2.coordinates, size);
+        }
         for (int i = 0; i < size; ++i) {
-            mul += vector1.coordinates[i] * vector2.coordinates[i];
+            mul += support1.coordinates[i] * support2.coordinates[i];
         }
         return mul;
     }
