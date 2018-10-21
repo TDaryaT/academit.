@@ -81,6 +81,8 @@ public class Main {
                 elem.print();
                 System.out.print(" ");
             }
+        }else{
+            System.out.println("его нет");
         }
     }
 }

@@ -7,10 +7,19 @@ import java.util.Scanner;
 
 public class CSV {
 
-    public static void convertToHTML(String writeFile,String readFile) throws FileNotFoundException {
+    public static void convertToHTML(String writeFile, String readFile) throws FileNotFoundException {
         try (PrintWriter writer = new PrintWriter(writeFile);
              Scanner scanner = new Scanner(new FileInputStream(readFile))) {
+            writer.println("<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" " +
+                    "\"http://www.w3.org/TR/html4/loose.dtd\">");
             writer.println("<html>");
+
+            writer.println("<head>");
+            writer.println("<title>");
+            writer.println("Таблица");
+            writer.println("</title>");
+            writer.println("</head>");
+
             writer.println("<body>");
             writer.println("<table>");
 
