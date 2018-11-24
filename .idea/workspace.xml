@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/Vector/src/ru/nsu/mmf/g16121/ddt/main/Main.java" line="27" mnemonic="9" />
+    <bookmark url="file://$PROJECT_DIR$/Vector/src/ru/nsu/mmf/g16121/ddt/main/Main.java" line="26" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fa2b5c0-671c-4c09-8a15-7f14e7b07dff" name="Default Changelist" comment="">
@@ -53,24 +53,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Range.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Range/src/ru/nsu/mmf/g16121/ddt/math/Range.java">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vector/src/ru/nsu/mmf/g16121/ddt/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="60" column="32" lean-forward="true" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
+            <state relative-caret-position="414">
+              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
               <folding>
-                <element signature="e#2130#2131#0" expanded="true" />
-                <element signature="e#2202#2203#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Range/src/ru/nsu/mmf/g16121/ddt/main/Main.java">
+      <file leaf-file-name="Vector.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Vector/src/ru/nsu/mmf/g16121/ddt/vector/Vector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="77" selection-start-line="77" selection-end-line="77" />
+            <state relative-caret-position="170">
+              <caret line="58" column="33" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
+              <folding>
+                <element signature="e#2496#2497#0" expanded="true" />
+                <element signature="e#2532#2533#0" expanded="true" />
+                <element signature="e#2776#2777#0" expanded="true" />
+                <element signature="e#2817#2818#0" expanded="true" />
+                <element signature="e#2874#2875#0" expanded="true" />
+                <element signature="e#2915#2916#0" expanded="true" />
+                <element signature="e#3485#3486#0" expanded="true" />
+                <element signature="e#3536#3537#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -102,11 +111,11 @@
         <option value="$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/shape/Rectangle.java" />
         <option value="$PROJECT_DIR$/Matrix/src/ru/nsu/mmf/g16121/ddt/math/Matrix.java" />
         <option value="$PROJECT_DIR$/Matrix/src/ru/nsu/mmf/g16121/ddt/main/Main.java" />
-        <option value="$PROJECT_DIR$/Vector/src/ru/nsu/mmf/g16121/ddt/main/Main.java" />
         <option value="$PROJECT_DIR$/CSV/src/ru/nsu/mmf/g16121/ddt/scv/CSV.java" />
-        <option value="$PROJECT_DIR$/Vector/src/ru/nsu/mmf/g16121/ddt/vector/Vector.java" />
         <option value="$PROJECT_DIR$/Range/src/ru/nsu/mmf/g16121/ddt/main/Main.java" />
         <option value="$PROJECT_DIR$/Range/src/ru/nsu/mmf/g16121/ddt/math/Range.java" />
+        <option value="$PROJECT_DIR$/Vector/src/ru/nsu/mmf/g16121/ddt/main/Main.java" />
+        <option value="$PROJECT_DIR$/Vector/src/ru/nsu/mmf/g16121/ddt/vector/Vector.java" />
       </list>
     </option>
   </component>
@@ -134,32 +143,32 @@
           <expand>
             <path>
               <item name="academit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Range" type="462c0819:PsiDirectoryNode" />
+              <item name="Vector" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="academit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Range" type="462c0819:PsiDirectoryNode" />
+              <item name="Vector" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="academit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Range" type="462c0819:PsiDirectoryNode" />
+              <item name="Vector" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ddt" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="academit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Range" type="462c0819:PsiDirectoryNode" />
+              <item name="Vector" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ddt" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="academit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Range" type="462c0819:PsiDirectoryNode" />
+              <item name="Vector" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ddt" type="462c0819:PsiDirectoryNode" />
-              <item name="math" type="462c0819:PsiDirectoryNode" />
+              <item name="vector" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -187,7 +196,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.nsu.mmf.g16121.ddt.main.Main" />
       <module name="Shapes" />
@@ -236,8 +245,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
       </list>
@@ -293,13 +302,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Range/src/ru/nsu/mmf/g16121/ddt/main/Main.java</url>
-          <line>44</line>
-          <properties />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="1" />
     </breakpoint-manager>
   </component>
@@ -382,11 +384,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Matrix/src/ru/nsu/mmf/g16121/ddt/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CSV/src/ru/nsu/mmf/g16121/ddt/scv/CSV.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -399,27 +410,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vector/src/ru/nsu/mmf/g16121/ddt/vector/Vector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-          <folding>
-            <element signature="e#3655#3656#0" expanded="true" />
-            <element signature="e#3706#3707#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vector/src/ru/nsu/mmf/g16121/ddt/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="59" column="61" selection-start-line="59" selection-start-column="61" selection-end-line="59" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -436,8 +426,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Range/src/ru/nsu/mmf/g16121/ddt/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        <state relative-caret-position="17">
+          <caret line="27" column="3" lean-forward="true" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vector/src/ru/nsu/mmf/g16121/ddt/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vector/src/ru/nsu/mmf/g16121/ddt/vector/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="58" column="33" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
+          <folding>
+            <element signature="e#2496#2497#0" expanded="true" />
+            <element signature="e#2532#2533#0" expanded="true" />
+            <element signature="e#2776#2777#0" expanded="true" />
+            <element signature="e#2817#2818#0" expanded="true" />
+            <element signature="e#2874#2875#0" expanded="true" />
+            <element signature="e#2915#2916#0" expanded="true" />
+            <element signature="e#3485#3486#0" expanded="true" />
+            <element signature="e#3536#3537#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

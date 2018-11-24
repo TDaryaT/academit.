@@ -8,10 +8,9 @@ import static ru.nsu.mmf.g16121.ddt.vector.Vector.subVector;
 
 public class Main {
     public static void main(String[] args) {
-        Vector vector1 = new Vector(3);
+        Vector vector1 = new Vector(2);
         vector1.setCoordinate(0, 1);
         vector1.setCoordinate(1, 0);
-        vector1.setCoordinate(2, 0);
         System.out.println("vector 1 = " + vector1.toString());
         System.out.println("его размерность = " + vector1.getSize());
         System.out.println("его длина = " + vector1.length());
@@ -32,6 +31,7 @@ public class Main {
         System.out.println("его длина = " + vector3.length());
         vector3.subVector(vector1);
         System.out.println("vector 3 = vector 3 - vector 1 = " + vector3.toString());
+        System.out.println("vector 1 = " + vector1.toString());
         System.out.println();
 
         Vector vector4 = new Vector(4, support);
