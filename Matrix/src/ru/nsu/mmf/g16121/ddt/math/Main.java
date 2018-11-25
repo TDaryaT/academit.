@@ -1,13 +1,13 @@
-package ru.nsu.mmf.g16121.ddt.main;
+package ru.nsu.mmf.g16121.ddt.math;
 
-import ru.nsu.mmf.g16121.ddt.math.Matrix;
+import ru.nsu.mmf.g16121.ddt.main.Matrix;
 import ru.nsu.mmf.g16121.ddt.vector.Vector;
 
 import java.util.Arrays;
 
-import static ru.nsu.mmf.g16121.ddt.math.Matrix.mul;
-import static ru.nsu.mmf.g16121.ddt.math.Matrix.sub;
-import static ru.nsu.mmf.g16121.ddt.math.Matrix.sum;
+import static ru.nsu.mmf.g16121.ddt.main.Matrix.mul;
+import static ru.nsu.mmf.g16121.ddt.main.Matrix.sub;
+import static ru.nsu.mmf.g16121.ddt.main.Matrix.sum;
 
 public class Main {
     public static void main(String[] args) {

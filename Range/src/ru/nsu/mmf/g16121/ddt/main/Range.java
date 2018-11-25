@@ -1,4 +1,4 @@
-package ru.nsu.mmf.g16121.ddt.math;
+package ru.nsu.mmf.g16121.ddt.main;
 
 public class Range {
     private double from;

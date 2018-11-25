@@ -1,4 +1,4 @@
-package ru.nsu.mmf.g16121.ddt.math;
+package ru.nsu.mmf.g16121.ddt.main;
 
 import ru.nsu.mmf.g16121.ddt.vector.Vector;
 

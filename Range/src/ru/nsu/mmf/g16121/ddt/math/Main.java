@@ -1,8 +1,6 @@
-package ru.nsu.mmf.g16121.ddt.main;
+package ru.nsu.mmf.g16121.ddt.math;
 
-import java.util.Scanner;
-
-import ru.nsu.mmf.g16121.ddt.math.Range;
+import ru.nsu.mmf.g16121.ddt.main.Range;
 
 public class Main {
     public static void main(String[] args) {
