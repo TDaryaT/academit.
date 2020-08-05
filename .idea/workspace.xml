@@ -1,98 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/List/src/ru/nsu/mmf/g16121/ddt/main/Main.java" line="52" mnemonic="9" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="2fa2b5c0-671c-4c09-8a15-7f14e7b07dff" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vector/src/ru/nsu/mmf/g16121/ddt/math/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Vector/src/ru/nsu/mmf/g16121/ddt/math/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Vector/src/ru/nsu/mmf/g16121/ddt/vector/Vector.java" beforeDir="false" afterPath="$PROJECT_DIR$/Vector/src/ru/nsu/mmf/g16121/ddt/vector/Vector.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1675378411">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.13" value="2" />
-          <entry key="project.open.time.24" value="1" />
-          <entry key="project.open.time.30" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="38" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="38" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="6606" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="6606" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.vcs.git.usages" />
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ArrayList/src/ru/nsu/mmf/g16121/ddt/main/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArrayList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ArrayList/src/ru/nsu/mmf/g16121/ddt/math/ArrayList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="657">
-              <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
-              <folding>
-                <element signature="e#194#195#0" expanded="true" />
-                <element signature="e#232#233#0" expanded="true" />
-                <element signature="e#670#671#0" expanded="true" />
-                <element signature="e#697#698#0" expanded="true" />
-                <element signature="e#730#731#0" expanded="true" />
-                <element signature="e#764#765#0" expanded="true" />
-                <element signature="e#910#911#0" expanded="true" />
-                <element signature="e#947#948#0" expanded="true" />
-                <element signature="e#1638#1639#0" expanded="true" />
-                <element signature="e#1700#1701#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="List.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ArrayList/src/ru/nsu/mmf/g16121/ddt/main/List.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -105,115 +23,39 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/shape/Square.java" />
-        <option value="$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/shape/Triangle.java" />
-        <option value="$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/main/ShapeComparator.java" />
-        <option value="$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/main/ShapeComparatorArea.java" />
-        <option value="$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/main/ShapeComporatorPerimeter.java" />
-        <option value="$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/main/ShapeComparatorPerimeter.java" />
-        <option value="$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/shape/Shape.java" />
-        <option value="$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/shape/Circle.java" />
-        <option value="$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/main/Main.java" />
-        <option value="$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/shape/Rectangle.java" />
-        <option value="$PROJECT_DIR$/CSV/src/ru/nsu/mmf/g16121/ddt/scv/CSV.java" />
-        <option value="$PROJECT_DIR$/Range/src/ru/nsu/mmf/g16121/ddt/main/Main.java" />
-        <option value="$PROJECT_DIR$/Range/src/ru/nsu/mmf/g16121/ddt/math/Range.java" />
-        <option value="$PROJECT_DIR$/Vector/src/ru/nsu/mmf/g16121/ddt/main/Main.java" />
-        <option value="$PROJECT_DIR$/Vector/src/ru/nsu/mmf/g16121/ddt/vector/Vector.java" />
-        <option value="$PROJECT_DIR$/Matrix/src/ru/nsu/mmf/g16121/ddt/math/Matrix.java" />
-        <option value="$PROJECT_DIR$/Matrix/src/ru/nsu/mmf/g16121/ddt/main/Main.java" />
-        <option value="$PROJECT_DIR$/List/src/ru/nsu/mmf/g16121/ddt/main/ListItem.java" />
-        <option value="$PROJECT_DIR$/List/src/ru/nsu/mmf/g16121/ddt/main/List.java" />
-        <option value="$PROJECT_DIR$/List/src/ru/nsu/mmf/g16121/ddt/math/Main.java" />
-        <option value="$PROJECT_DIR$/List/src/ru/nsu/mmf/g16121/ddt/math/ListItem.java" />
-        <option value="$PROJECT_DIR$/List/src/ru/nsu/mmf/g16121/ddt/main/Main.java" />
-        <option value="$PROJECT_DIR$/ArrayList/src/ru/nsu/mmf/g16121/ddt/main/Main.java" />
-        <option value="$PROJECT_DIR$/ArrayList/src/ru/nsu/mmf/g16121/ddt/math/ArrayList.java" />
-        <option value="$PROJECT_DIR$/ArrayList/src/ru/nsu/mmf/g16121/ddt/main/List.java" />
-      </list>
-    </option>
-  </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="787" />
     <option name="width" value="996" />
     <option name="height" value="860" />
   </component>
+  <component name="ProjectId" id="1fY9PtbzEqifnqHvLTlMoDA9I9j" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="academit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ArrayList" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="academit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ArrayList" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="academit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ArrayList" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ddt" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="academit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ArrayList" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ddt" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="academit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ArrayList" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ddt" type="462c0819:PsiDirectoryNode" />
-              <item name="math" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.Main (4)">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.nsu.mmf.g16121.ddt.math.Main" />
+      <module name="Range" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.nsu.mmf.g16121.ddt.math.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.nsu.mmf.g16121.ddt.math.Main" />
       <module name="Vector" />
@@ -223,6 +65,9 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.nsu.mmf.g16121.ddt.math.Main" />
@@ -264,23 +109,14 @@
         </pattern>
       </extension>
     </configuration>
-    <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.Main (2)" />
-      <item itemvalue="Application.Main (3)" />
-      <item itemvalue="Application.Main (4)" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -294,302 +130,43 @@
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <layout>
-      <window_info anchor="right" id="Palette" order="6" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32952693" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info id="Image Layers" order="1" />
-      <window_info anchor="right" id="Capture Analysis" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="7" side_tool="true" weight="0.32960895" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.270636" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32882273" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32882273" />
-      <window_info id="Capture Tool" order="0" />
-      <window_info id="Designer" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.21401028" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32882273" />
-      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
-      <window_info id="UI Designer" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="1" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991881" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-    </layout>
-    <layout-to-restore>
-      <window_info anchor="right" id="Palette" order="6" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="0" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.270636" />
-      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.21401028" />
-      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Theme Preview" order="1" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Image Layers" order="1" />
-      <window_info id="Designer" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991881" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32882273" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32882273" />
-      <window_info id="Capture Tool" order="0" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32952693" />
-      <window_info anchor="right" id="Maven Projects" order="7" side_tool="true" weight="0.32960895" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-    </layout-to-restore>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="7" />
-    </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Vector/src/ru/nsu/mmf/g16121/ddt/math/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="59" column="61" selection-start-line="59" selection-start-column="61" selection-end-line="59" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vector/src/ru/nsu/mmf/g16121/ddt/vector/Vector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2567">
-          <caret line="151" column="19" selection-start-line="151" selection-start-column="19" selection-end-line="151" selection-end-column="19" />
-          <folding>
-            <element signature="e#3655#3656#0" expanded="true" />
-            <element signature="e#3706#3707#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/math/ShapeComparatorArea.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/math/ShapeComparatorPerimeter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/shape/Shape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/math/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/shape/Circle.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/shape/Square.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/shape/Triangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/shape/Rectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/Determinant.java" />
-    <entry file="file://$PROJECT_DIR$/CSV/src/ru/nsu/mmf/g16121/ddt/scv/CSV.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSV/src/ru/nsu/mmf/g16121/ddt/math/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Range/src/ru/nsu/mmf/g16121/ddt/main/Range.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="60" column="32" lean-forward="true" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
-          <folding>
-            <element signature="e#2130#2131#0" expanded="true" />
-            <element signature="e#2202#2203#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Range/src/ru/nsu/mmf/g16121/ddt/math/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="27" column="3" lean-forward="true" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vector/src/ru/nsu/mmf/g16121/ddt/math/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/projects/AdditionalTasks/src/Determinant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vector/src/ru/nsu/mmf/g16121/ddt/vector/Vector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#968#969#0" expanded="true" />
-            <element signature="e#1009#1010#0" expanded="true" />
-            <element signature="e#2676#2677#0" expanded="true" />
-            <element signature="e#2717#2718#0" expanded="true" />
-            <element signature="e#2774#2775#0" expanded="true" />
-            <element signature="e#2815#2816#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Matrix/src/ru/nsu/mmf/g16121/ddt/main/Matrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="195" column="40" selection-start-line="190" selection-start-column="8" selection-end-line="195" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Matrix/src/ru/nsu/mmf/g16121/ddt/math/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_172/src.zip!/java/lang/StringBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="141" column="9" lean-forward="true" selection-start-line="141" selection-start-column="9" selection-end-line="141" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/List/src/ru/nsu/mmf/g16121/ddt/math/ListItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-          <folding>
-            <element signature="e#431#432#0" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/List/src/ru/nsu/mmf/g16121/ddt/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/List/src/ru/nsu/mmf/g16121/ddt/math/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-          <folding>
-            <element signature="e#226#227#0" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ArrayList/src/ru/nsu/mmf/g16121/ddt/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ArrayList/src/ru/nsu/mmf/g16121/ddt/math/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="657">
-          <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
-          <folding>
-            <element signature="e#194#195#0" expanded="true" />
-            <element signature="e#232#233#0" expanded="true" />
-            <element signature="e#670#671#0" expanded="true" />
-            <element signature="e#697#698#0" expanded="true" />
-            <element signature="e#730#731#0" expanded="true" />
-            <element signature="e#764#765#0" expanded="true" />
-            <element signature="e#910#911#0" expanded="true" />
-            <element signature="e#947#948#0" expanded="true" />
-            <element signature="e#1638#1639#0" expanded="true" />
-            <element signature="e#1700#1701#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ArrayList/src/ru/nsu/mmf/g16121/ddt/main/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state width="1538" height="169" key="GridCell.Tab.0.bottom" timestamp="1596629462655">
+      <screen x="16" y="26" width="1584" height="850" />
+    </state>
+    <state width="1538" height="169" key="GridCell.Tab.0.bottom/16.26.1584.850@16.26.1584.850" timestamp="1596629462655" />
+    <state width="1538" height="169" key="GridCell.Tab.0.center" timestamp="1596629462654">
+      <screen x="16" y="26" width="1584" height="850" />
+    </state>
+    <state width="1538" height="169" key="GridCell.Tab.0.center/16.26.1584.850@16.26.1584.850" timestamp="1596629462654" />
+    <state width="1538" height="169" key="GridCell.Tab.0.left" timestamp="1596629462653">
+      <screen x="16" y="26" width="1584" height="850" />
+    </state>
+    <state width="1538" height="169" key="GridCell.Tab.0.left/16.26.1584.850@16.26.1584.850" timestamp="1596629462653" />
+    <state width="1538" height="169" key="GridCell.Tab.0.right" timestamp="1596629462655">
+      <screen x="16" y="26" width="1584" height="850" />
+    </state>
+    <state width="1538" height="169" key="GridCell.Tab.0.right/16.26.1584.850@16.26.1584.850" timestamp="1596629462655" />
+    <state width="1538" height="263" key="GridCell.Tab.1.bottom" timestamp="1596629030239">
+      <screen x="16" y="26" width="1584" height="850" />
+    </state>
+    <state width="1538" height="263" key="GridCell.Tab.1.bottom/16.26.1584.850@16.26.1584.850" timestamp="1596629030239" />
+    <state width="1538" height="263" key="GridCell.Tab.1.center" timestamp="1596629030238">
+      <screen x="16" y="26" width="1584" height="850" />
+    </state>
+    <state width="1538" height="263" key="GridCell.Tab.1.center/16.26.1584.850@16.26.1584.850" timestamp="1596629030238" />
+    <state width="1538" height="263" key="GridCell.Tab.1.left" timestamp="1596629030237">
+      <screen x="16" y="26" width="1584" height="850" />
+    </state>
+    <state width="1538" height="263" key="GridCell.Tab.1.left/16.26.1584.850@16.26.1584.850" timestamp="1596629030237" />
+    <state width="1538" height="263" key="GridCell.Tab.1.right" timestamp="1596629030239">
+      <screen x="16" y="26" width="1584" height="850" />
+    </state>
+    <state width="1538" height="263" key="GridCell.Tab.1.right/16.26.1584.850@16.26.1584.850" timestamp="1596629030239" />
+    <state x="391" y="198" width="826" height="508" key="IDE.errors.dialog" timestamp="1596384315835">
+      <screen x="16" y="26" width="1584" height="850" />
+    </state>
+    <state x="391" y="198" width="826" height="508" key="IDE.errors.dialog/16.26.1584.850@16.26.1584.850" timestamp="1596384315835" />
   </component>
   <component name="masterDetails">
     <states>

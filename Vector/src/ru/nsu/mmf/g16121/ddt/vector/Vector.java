@@ -48,11 +48,10 @@ public class Vector {
     }
 
     public void addVector(Vector vector) {
-        int vectorSize = this.getSize();
-        if (vectorSize < vector.getSize()) {
+        int size = this.getSize();
+        int vectorSize = vector.getSize();
+        if (size < vectorSize) {
             this.coordinates = Arrays.copyOf(coordinates, vectorSize);
-        } else {
-            vectorSize = vector.getSize();
         }
 
         for (int i = 0; i < vectorSize; ++i) {
@@ -61,11 +60,10 @@ public class Vector {
     }
 
     public void subVector(Vector vector) {
-        int vectorSize = this.getSize();
-        if (vectorSize < vector.getSize()) {
+        int size = this.getSize();
+        int vectorSize = vector.getSize();
+        if (size < vectorSize) {
             this.coordinates = Arrays.copyOf(coordinates, vectorSize);
-        } else {
-            vectorSize = vector.getSize();
         }
 
         for (int i = 0; i < vectorSize; ++i) {

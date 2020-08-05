@@ -46,16 +46,18 @@ public class Main {
 
         int alpha = 6;
         vector1.scalarMul(6);
-        System.out.println("vector 1 * " + alpha + " = " + vector1);
+        System.out.println("vector 1 * " + alpha + " = " + vector1.toString());
         vector1.turnVector();
-        System.out.println("vector 1 = развернутый вектор vector1 * " + alpha + " это " + vector1);
+        System.out.println("vector 1 = развернутый вектор vector1 * " + alpha + " это " + vector1.toString());
         System.out.println();
 
         System.out.println("теперь проверим статические методы:");
         Vector vector5 = new Vector(addVector(vector1, vector3));
-        System.out.println("vector 5 = vector 1 + vector 3 = " + vector5);
+        System.out.println("vector 5 = vector 1 + vector 3 = " + vector5.toString());
+
         Vector vector6 = new Vector(subVector(vector1, vector3));
-        System.out.println("vector 6 = vector 1 - vector 3 = " + vector6);
+        System.out.println("vector 6 = vector 1 - vector 3 = " + vector6.toString());
+
         vector6.addVector(new Vector(new double[]{0, 0, 0, 0, 0}));
         System.out.println("vector 6 = " + vector6.toString());
         System.out.println("vector 5 * vector 6 = " + scalarMul(vector5, vector6));
