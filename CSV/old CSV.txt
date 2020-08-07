@@ -3,7 +3,7 @@ package ru.nsu.mmf.g16121.ddt.scv;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
-import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class CSV {
@@ -46,21 +46,18 @@ public class CSV {
         return translateCell.toString();
     }
 
-    public static ArrayList<String> splitIntoCells(Scanner scanner) {
-        ArrayList<String> cells = new ArrayList<>();
+    public static String[] splitIntoCells(Scanner scanner) {
+        String[] cells = new String[3];
         String line = scanner.nextLine();
         row:
-        for (; ; ) {
+        for (int cellsCount = 0; ; cellsCount++) {
             if (line.indexOf('"') != 0) {
                 int commaIndex = line.indexOf(',');
-                if (line.indexOf('"') < commaIndex) {
-                    throw new IllegalArgumentException("Illegal symbol \" in cell without quotes");
-                }
                 if (commaIndex != -1) {
-                    cells.add(line.substring(0, commaIndex));
+                    cells[cellsCount] = line.substring(0, commaIndex);
                     line = line.substring(commaIndex + 1);
                 } else {
-                    cells.add(line);
+                    cells[cellsCount] = line;
                     break;
                 }
             } else {
@@ -71,7 +68,7 @@ public class CSV {
                     if (line.isEmpty() && scanner.hasNext()) {
                         newCell.append("\n");
                         line = scanner.nextLine();
-                    } else if (line.isEmpty()) {
+                    } else if (!scanner.hasNext() && newCell.length() == 0 && line.isEmpty()) {
                         throw new IllegalArgumentException("Illegal symbol \": not close cell");
                     }
                     int quotIndex = line.indexOf('"');
@@ -84,11 +81,11 @@ public class CSV {
                         newCell.append(line, 0, quotIndex);
                         line = line.substring(quotIndex);
                         if (line.length() == 1) {
-                            cells.add(newCell.toString());
+                            cells[cellsCount] = newCell.toString();
                             break row;
                         } else if (line.charAt(1) == ',') {
                             line = line.substring(2);
-                            cells.add(newCell.toString());
+                            cells[cellsCount] = newCell.toString();
                             break;
                         } else if (line.charAt(1) == '"') {
                             newCell.append("\"\"");
@@ -103,11 +100,13 @@ public class CSV {
         return cells;
     }
 
-    public static void printTd(PrintWriter writer, ArrayList<String> cells) {
-        for (String cell : cells) {
+    public static void printTd(PrintWriter writer, String[] cells) {
+        int cellsCount = cells.length;
+        for (int i = 0; i < cellsCount; i++) {
             writer.println("<td>");
-            if (!cell.isEmpty()) {
-                writer.println(translateCell(cell));
+            if (!cells[i].isEmpty() && cells[i] != null) {
+                String cell = translateCell(cells[i]);
+                writer.println(cell);
             }
             writer.println("</td>");
         }
@@ -128,9 +127,10 @@ public class CSV {
 
             writer.println("<body>");
             writer.println("<table>");
+
             while (scanner.hasNextLine()) {
                 writer.println("<tr>");
-                ArrayList<String> cells = splitIntoCells(scanner);
+                String[] cells = splitIntoCells(scanner);
                 printTd(writer, cells);
                 writer.println("</tr>");
             }

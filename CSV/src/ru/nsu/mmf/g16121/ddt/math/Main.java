@@ -5,6 +5,6 @@ import static ru.nsu.mmf.g16121.ddt.scv.CSV.convertToHTML;
 
 public class Main {
     public static void main(String[] args)throws FileNotFoundException {
-        convertToHTML("D:\\AcademITSchool\\SCV\\inHtml.html","D:\\AcademITSchool\\SCV\\inCSV_bcp.csv");
+        convertToHTML("//home//dasha//IdeaProjects//academit.//CSV//inHtml.html","//home//dasha//IdeaProjects//academit.//CSV//inCSV_bcp.csv");
     }
 }
