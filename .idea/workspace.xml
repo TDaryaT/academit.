@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,11 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fa2b5c0-671c-4c09-8a15-7f14e7b07dff" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CSV/CSV.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSV/inCSV_bcp.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSV/inHtml.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSV/old CSV.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSV/src/ru/nsu/mmf/g16121/ddt/math/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/CSV/src/ru/nsu/mmf/g16121/ddt/math/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,22 +203,22 @@
       <screen x="16" y="26" width="1584" height="850" />
     </state>
     <state x="569" y="236" width="469" height="432" key="#Web_Browsers/16.26.1584.850@16.26.1584.850" timestamp="1596738633835" />
-    <state width="1538" height="169" key="GridCell.Tab.0.bottom" timestamp="1596840335061">
+    <state width="1538" height="169" key="GridCell.Tab.0.bottom" timestamp="1596843124063">
       <screen x="16" y="26" width="1584" height="850" />
     </state>
-    <state width="1538" height="169" key="GridCell.Tab.0.bottom/16.26.1584.850@16.26.1584.850" timestamp="1596840335061" />
-    <state width="1538" height="169" key="GridCell.Tab.0.center" timestamp="1596840335060">
+    <state width="1538" height="169" key="GridCell.Tab.0.bottom/16.26.1584.850@16.26.1584.850" timestamp="1596843124063" />
+    <state width="1538" height="169" key="GridCell.Tab.0.center" timestamp="1596843124062">
       <screen x="16" y="26" width="1584" height="850" />
     </state>
-    <state width="1538" height="169" key="GridCell.Tab.0.center/16.26.1584.850@16.26.1584.850" timestamp="1596840335060" />
-    <state width="1538" height="169" key="GridCell.Tab.0.left" timestamp="1596840335059">
+    <state width="1538" height="169" key="GridCell.Tab.0.center/16.26.1584.850@16.26.1584.850" timestamp="1596843124062" />
+    <state width="1538" height="169" key="GridCell.Tab.0.left" timestamp="1596843124061">
       <screen x="16" y="26" width="1584" height="850" />
     </state>
-    <state width="1538" height="169" key="GridCell.Tab.0.left/16.26.1584.850@16.26.1584.850" timestamp="1596840335059" />
-    <state width="1538" height="169" key="GridCell.Tab.0.right" timestamp="1596840335061">
+    <state width="1538" height="169" key="GridCell.Tab.0.left/16.26.1584.850@16.26.1584.850" timestamp="1596843124061" />
+    <state width="1538" height="169" key="GridCell.Tab.0.right" timestamp="1596843124063">
       <screen x="16" y="26" width="1584" height="850" />
     </state>
-    <state width="1538" height="169" key="GridCell.Tab.0.right/16.26.1584.850@16.26.1584.850" timestamp="1596840335061" />
+    <state width="1538" height="169" key="GridCell.Tab.0.right/16.26.1584.850@16.26.1584.850" timestamp="1596843124063" />
     <state width="1538" height="263" key="GridCell.Tab.1.bottom" timestamp="1596836740065">
       <screen x="16" y="26" width="1584" height="850" />
     </state>
@@ -239,18 +239,18 @@
       <screen x="16" y="26" width="1584" height="850" />
     </state>
     <state x="391" y="198" width="826" height="508" key="IDE.errors.dialog/16.26.1584.850@16.26.1584.850" timestamp="1596829404839" />
-    <state x="297" y="87" key="SettingsEditor" timestamp="1596829558363">
+    <state x="297" y="87" key="SettingsEditor" timestamp="1596900154930">
       <screen x="16" y="26" width="1584" height="850" />
     </state>
-    <state x="297" y="87" key="SettingsEditor/16.26.1584.850@16.26.1584.850" timestamp="1596829558363" />
+    <state x="297" y="87" key="SettingsEditor/16.26.1584.850@16.26.1584.850" timestamp="1596900154930" />
     <state x="498" y="199" width="612" height="507" key="refactoring.ChangeSignatureDialog" timestamp="1596807503641">
       <screen x="16" y="26" width="1584" height="850" />
     </state>
     <state x="498" y="199" width="612" height="507" key="refactoring.ChangeSignatureDialog/16.26.1584.850@16.26.1584.850" timestamp="1596807503641" />
-    <state x="75" y="202" key="run.anything.popup" timestamp="1596802075642">
+    <state x="75" y="202" key="run.anything.popup" timestamp="1596899041126">
       <screen x="16" y="26" width="1584" height="850" />
     </state>
-    <state x="75" y="202" key="run.anything.popup/16.26.1584.850@16.26.1584.850" timestamp="1596802075642" />
+    <state x="75" y="202" key="run.anything.popup/16.26.1584.850@16.26.1584.850" timestamp="1596899041126" />
   </component>
   <component name="masterDetails">
     <states>
