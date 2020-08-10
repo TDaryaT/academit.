@@ -23,15 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fa2b5c0-671c-4c09-8a15-7f14e7b07dff" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ArrayList/src/ru/nsu/mmf/g16121/ddt/main/List.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ArrayList/src/ru/nsu/mmf/g16121/ddt/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ArrayList/src/ru/nsu/mmf/g16121/ddt/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ArrayList/src/ru/nsu/mmf/g16121/ddt/math/ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/ArrayList/src/ru/nsu/mmf/g16121/ddt/math/ArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/shape/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/shape/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/shape/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/shape/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/shape/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/shape/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/shape/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/shape/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArrayList/src/ru/nsu/mmf/g16121/ddt/math/ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/ArrayList/src/ru/nsu/mmf/g16121/ddt/math/MyArrayList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
