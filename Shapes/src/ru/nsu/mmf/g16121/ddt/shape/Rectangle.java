@@ -3,8 +3,8 @@ package ru.nsu.mmf.g16121.ddt.shape;
 import java.util.Arrays;
 
 public class Rectangle implements Shape {
-    private double width;
-    private double height;
+    private final double width;
+    private final double height;
     private final static int PERIMETER_COEFFICIENT = 2;
 
     public Rectangle(double side1, double side2) {

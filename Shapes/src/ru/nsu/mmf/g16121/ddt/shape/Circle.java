@@ -1,7 +1,7 @@
 package ru.nsu.mmf.g16121.ddt.shape;
 
 public class Circle implements Shape {
-    private double radius;
+    private final double radius;
     private static final int DIAM_COEFFICIENT = 2;
 
     public Circle(double radius) {

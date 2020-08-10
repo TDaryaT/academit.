@@ -23,8 +23,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fa2b5c0-671c-4c09-8a15-7f14e7b07dff" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArrayList/src/ru/nsu/mmf/g16121/ddt/main/List.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArrayList/src/ru/nsu/mmf/g16121/ddt/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ArrayList/src/ru/nsu/mmf/g16121/ddt/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArrayList/src/ru/nsu/mmf/g16121/ddt/math/ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/ArrayList/src/ru/nsu/mmf/g16121/ddt/math/ArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/shape/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/shape/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/shape/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/shape/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/shape/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/shape/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/shape/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Shapes/src/ru/nsu/mmf/g16121/ddt/shape/Triangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +41,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -203,6 +210,18 @@
       <screen x="16" y="26" width="1584" height="850" />
     </state>
     <state x="569" y="236" width="469" height="432" key="#Web_Browsers/16.26.1584.850@16.26.1584.850" timestamp="1596738633835" />
+    <state x="616" y="160" width="567" height="585" key="#com.intellij.ide.util.MemberChooser" timestamp="1597077512990">
+      <screen x="16" y="26" width="1584" height="850" />
+    </state>
+    <state x="616" y="160" width="567" height="585" key="#com.intellij.ide.util.MemberChooser/16.26.1584.850@16.26.1584.850" timestamp="1597077512990" />
+    <state x="561" y="320" width="494" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1597070289275">
+      <screen x="16" y="26" width="1584" height="850" />
+    </state>
+    <state x="561" y="320" width="494" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/16.26.1584.850@16.26.1584.850" timestamp="1597070289275" />
+    <state x="541" y="201" width="526" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597077488910">
+      <screen x="16" y="26" width="1584" height="850" />
+    </state>
+    <state x="541" y="201" width="526" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/16.26.1584.850@16.26.1584.850" timestamp="1597077488910" />
     <state width="1538" height="169" key="GridCell.Tab.0.bottom" timestamp="1596843124063">
       <screen x="16" y="26" width="1584" height="850" />
     </state>
