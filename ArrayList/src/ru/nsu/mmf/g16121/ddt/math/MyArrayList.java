@@ -27,14 +27,14 @@ public class MyArrayList<T> implements List<T> {
     }
 
     /**
-     * @return вместимость списка
+     * @return вместимость коллекции
      */
     public int getCapacity() {
         return items.length;
     }
 
     /**
-     * @return текущую длину списка (не вместимость!)
+     * @return текущую длину коллекции (не вместимость!)
      */
     @Override
     public int size() {
@@ -42,7 +42,7 @@ public class MyArrayList<T> implements List<T> {
     }
 
     /**
-     * @return true - если длина списка == 0, false - иначе
+     * @return true - если длина коллекции == 0, false - иначе
      */
     @Override
     public boolean isEmpty() {
@@ -50,8 +50,8 @@ public class MyArrayList<T> implements List<T> {
     }
 
     /**
-     * @return индекс первого вхождения указанного элемента в этом списке или -1,
-     * если этот список не содержит элемент.
+     * @return индекс первого вхождения указанного элемента в этой коллекции или -1,
+     * если эта коллекция не содержит элемент.
      */
     @Override
     public int indexOf(Object elem) {
@@ -62,8 +62,8 @@ public class MyArrayList<T> implements List<T> {
     }
 
     /**
-     * @return индекс последнего вхождения указанного элемента в этом списке или -1,
-     * если этот список не содержит элемент.
+     * @return индекс последнего вхождения указанного элемента в этой коллекции или -1,
+     * если эта коллекция не содержит элемент.
      */
     @Override
     public int lastIndexOf(Object elem) {
@@ -94,7 +94,7 @@ public class MyArrayList<T> implements List<T> {
     }
 
     /**
-     * @return true - если элемент содержится в списке, false - иначе
+     * @return true - если элемент содержится в коллекции, false - иначе
      */
     @Override
     public boolean contains(Object elem) {
@@ -102,7 +102,7 @@ public class MyArrayList<T> implements List<T> {
     }
 
     /**
-     * @return Список в формате массива
+     * @return Коллекция в формате массива
      */
     @Override
     public T[] toArray() {
@@ -125,8 +125,8 @@ public class MyArrayList<T> implements List<T> {
     }
 
     /**
-     * @return элемент списка по индексу
-     * @throws IllegalArgumentException, если индекс выходит за рамки длины списка.
+     * @return элемент коллекции по индексу
+     * @throws IllegalArgumentException, если индекс выходит за рамки длины коллекции.
      */
     @Override
     public T get(int index) {
@@ -137,11 +137,11 @@ public class MyArrayList<T> implements List<T> {
     }
 
     /**
-     * Заменяет элемент в указанной позиции в этом списке на указанный элемент.
+     * Заменяет элемент в указанной позиции в этой коллекции на указанный элемент.
      *
      * @param index - номер индекса, в который хотим записать элемент
      * @param item  - элемент который добавляется
-     * @throws IllegalArgumentException, если индекс выходит за рамки длины списка.
+     * @throws IllegalArgumentException, если индекс выходит за рамки длины коллекции.
      */
     @Override
     public T set(int index, T item) {
@@ -156,7 +156,7 @@ public class MyArrayList<T> implements List<T> {
     }
 
     /**
-     * Метод, увеличивающий вместимость в 2 раза от текущей длины массива
+     * Метод, увеличивающий вместимость в 2 раза от текущей длины коллекции
      */
     public void increaseCapacity() {
         if (size >= items.length) {
@@ -171,7 +171,7 @@ public class MyArrayList<T> implements List<T> {
     }
 
     /**
-     * Обрезает емкость экземпляра ArrayList до текущего размера списка.
+     * Обрезает емкость экземпляра ArrayList до текущего размера коллекции.
      * Можно использовать эту операцию для минимизации хранения экземпляра ArrayList.
      */
     public void trimToSize() {
@@ -182,7 +182,7 @@ public class MyArrayList<T> implements List<T> {
 
 
     /**
-     * @param obj - элемент, добавляемый в конец списка.
+     * @param obj - элемент, добавляемый в конец коллекции.
      * @return false - если этот элемент уже добавлялся, true - если добавили элемент и размер изменился.
      */
     @Override
@@ -197,14 +197,14 @@ public class MyArrayList<T> implements List<T> {
 
 
     /**
-     * Вставляет указанный элемент в указанную позицию в этом списке.
+     * Вставляет указанный элемент в указанную позицию в этой коллекции.
      * Сдвигает элемент, который в данный момент находится в этой
      * позиции (если есть), и все последующие элементы вправо
      * (добавляет единицу к их индексам).
      *
-     * @param index - индекс по которому происходит добавление элемента списка.
+     * @param index - индекс по которому происходит добавление элемента коллекции.
      * @param elem  - добавляемый элемент
-     * @throws IllegalArgumentException, если индекс выходит за рамки длины списка.
+     * @throws IllegalArgumentException, если индекс выходит за рамки длины коллекции.
      */
     @Override
     public void add(int index, T elem) {
@@ -224,11 +224,11 @@ public class MyArrayList<T> implements List<T> {
     }
 
     /**
-     * Удаляет элемент в указанной позиции в этом списке.
+     * Удаляет элемент в указанной позиции в этой коллекции.
      *
-     * @param index - индекс по которому происходит удаление элемента списка.
+     * @param index - индекс по которому происходит удаление элемента коллекции.
      * @return элемент, который удалили
-     * @throws IllegalArgumentException, если индекс выходит за рамки длины списка.
+     * @throws IllegalArgumentException, если индекс выходит за рамки длины коллекции.
      */
 
     @Override
@@ -246,9 +246,9 @@ public class MyArrayList<T> implements List<T> {
     }
 
     /**
-     * Удаляет первое вхождение указанного элемента из этого списка, если он присутствует.
+     * Удаляет первое вхождение указанного элемента из этй коллекции, если он присутствует.
      *
-     * @param obj - Элемент, который удаляется из списка
+     * @param obj - Элемент, который удаляется из коллекции
      * @return true - если удалили элемент, false - иначе
      */
     @Override
@@ -264,8 +264,8 @@ public class MyArrayList<T> implements List<T> {
     }
 
     /**
-     * @param collection - коллекция, которую проверяем на то, что она есть в списке.
-     * @return true - если все элементы коллекции в списке, false - иначе.
+     * @param collection - коллекция, которую проверяем на то, что она есть в коллекции.
+     * @return true - если все элементы коллекции в коллекции, false - иначе.
      */
     @Override
     public boolean containsAll(Collection<?> collection) {
@@ -282,7 +282,7 @@ public class MyArrayList<T> implements List<T> {
     }
 
     /**
-     * Добавление коллекции в конец списка
+     * Добавление коллекции в конец коллекции
      *
      * @param collection - добавляемая коллекция
      * @return true, если эта коллекция изменилась в результате вызова
@@ -307,16 +307,16 @@ public class MyArrayList<T> implements List<T> {
     }
 
     /**
-     * Вставляет все элементы указанной коллекции в этот список
+     * Вставляет все элементы указанной коллекции в эту коллекцию
      * в указанную позицию. Сдвигает элемент, который в данный
      * момент находится в этой позиции (если есть), и любые
      * последующие элементы вправо (увеличивает их индексы).
-     * Новые элементы появятся в этом списке в том порядке,
+     * Новые элементы появятся в этой коллекции в том порядке,
      * в котором они возвращены итератором указанной коллекции.
      *
      * @param index      -  индекс, по которому нужно вставить первый элемент из указанной коллекции
-     * @param collection - коллекция, содержащая элементы для добавления в этот список
-     * @return true, если этот список изменился в результате вызова
+     * @param collection - коллекция, содержащая элементы для добавления в эту коллекцию
+     * @return true, если эту коллекцию изменился в результате вызова
      */
     @Override
     public boolean addAll(int index, Collection<? extends T> collection) {
@@ -348,8 +348,8 @@ public class MyArrayList<T> implements List<T> {
     }
 
     /**
-     * Удаляет из этого списка все его элементы,
-     * содержащиеся в указанной коллекции.
+     * Удаляет из этой коллекции все его элементы,
+     * содержащиеся в указанной коллекции последовательно.
      *
      * @param collection - элементы удаления
      * @return true - если удалили элемент, false - иначе
@@ -367,7 +367,7 @@ public class MyArrayList<T> implements List<T> {
     }
 
     /**
-     * удаляет из этого списка все ее элементы,
+     * удаляет из этой коллекции все ее элементы,
      * которые не содержатся в указанной коллекции.
      *
      * @param collection - коллекция, содержащая элементы, которые будут сохранены в этой коллекции
@@ -392,7 +392,7 @@ public class MyArrayList<T> implements List<T> {
     }
 
     /**
-     * Очистка списка
+     * Очистка коллекции
      */
     @Override
     public void clear() {
@@ -401,23 +401,6 @@ public class MyArrayList<T> implements List<T> {
             Arrays.fill(items,  null);
             size = 0;
         }
-    }
-
-    @SuppressWarnings("unchecked")
-    @Override
-    public boolean equals(Object elem) {
-        // проверили что передали сам объект
-        if (elem == this) {
-            return true;
-        }
-        // отсеяли null и объекты других классов
-        if (elem == null || elem.getClass() != this.getClass()) {
-            return false;
-        }
-        // привели объект к ArrayList
-        MyArrayList<T> arrayList = (MyArrayList<T>) elem;
-        // проверили равенство ссылок и полей
-        return items == arrayList.items && size == arrayList.size;
     }
 
     @Override
@@ -457,7 +440,7 @@ public class MyArrayList<T> implements List<T> {
 
     private class MyListIterator implements Iterator<T> {
         private int currentIndex = -1;
-        private int modCount = MyArrayList.this.modCount;
+        private final int modCount = MyArrayList.this.modCount;
 
         @Override
         public boolean hasNext() {
