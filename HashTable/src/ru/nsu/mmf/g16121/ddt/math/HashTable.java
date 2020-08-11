@@ -3,28 +3,47 @@ package ru.nsu.mmf.g16121.ddt.math;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
-import java.util.LinkedList;
 
 public class HashTable<T> implements Collection<T> {
-    private ArrayList<ArrayList<T>> hashTable;
+    private ArrayList<T>[] hashTable;
 
-    public HashTable(int capacity){
-        hashTable = new ArrayList<ArrayList<T>>(capacity);
+    @SuppressWarnings("unchecked")
+    public HashTable() {
+        hashTable = (ArrayList<T>[]) new ArrayList[100];
+    }
+
+    @SuppressWarnings("unchecked")
+    public HashTable(int capacity) {
+        hashTable = (ArrayList<T>[]) new ArrayList[capacity];
     }
 
     @Override
     public int size() {
-        return hashTable.size();
+        return hashTable.length;
     }
 
     @Override
     public boolean isEmpty() {
-        return hashTable.isEmpty();
+        return hashTable.length == 0;
     }
 
+    /**
+     * Проверка на то, есть ли в таблице данный объект
+     * @param o - искомый объект
+     * @return true, если есть, false - иначе
+     */
     @Override
     public boolean contains(Object o) {
-
+        int hash = o.hashCode();
+        if (hashTable[hash] == null) {
+            return false;
+        } else {
+            for (T elem : hashTable[hash]) {
+                if (elem.equals(o)) {
+                    return true;
+                }
+            }
+        }
         return false;
     }
 
@@ -43,9 +62,23 @@ public class HashTable<T> implements Collection<T> {
         return null;
     }
 
+    /**
+     * Добавление элемента в хэш-таблицу
+     * @param t - добавляемый элемент
+     * @return true, если таблица изменилась
+     */
     @Override
     public boolean add(T t) {
-        return false;
+        if (contains(t)) {
+            return false;
+        }
+
+        int hash = t.hashCode();
+        if (hashTable[hash] == null) {
+            hashTable[hash] = new ArrayList<>();
+        }
+        hashTable[hash].add(t);
+        return true;
     }
 
     @Override
