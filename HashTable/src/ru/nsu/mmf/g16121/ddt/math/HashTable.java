@@ -1,11 +1,11 @@
 package ru.nsu.mmf.g16121.ddt.math;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Iterator;
+import java.util.*;
 
 public class HashTable<T> implements Collection<T> {
     private ArrayList<T>[] hashTable;
+    private int size;
+    private int modCount;
 
     @SuppressWarnings("unchecked")
     public HashTable() {
@@ -17,14 +17,29 @@ public class HashTable<T> implements Collection<T> {
         hashTable = (ArrayList<T>[]) new ArrayList[capacity];
     }
 
+    /**
+     * @return Количество элементов, находящихся в таблице
+     */
     @Override
     public int size() {
-        return hashTable.length;
+        return size;
     }
 
+    /**
+     * Приведение кэша к размеру кэш-таблицы
+     * @param o - объект, для которого хотим определить позицию в таблице
+     * @return индекс для объекта в таблице
+     */
+    private int getIndex(Object o){
+        return Math.abs(o.hashCode()%hashTable.length);
+    }
+
+    /**
+     * @return Количество элементов в таблице
+     */
     @Override
     public boolean isEmpty() {
-        return hashTable.length == 0;
+        return size == 0;
     }
 
     /**
@@ -34,7 +49,7 @@ public class HashTable<T> implements Collection<T> {
      */
     @Override
     public boolean contains(Object o) {
-        int hash = o.hashCode();
+        int hash = getIndex(o);
         if (hashTable[hash] == null) {
             return false;
         } else {
@@ -49,17 +64,75 @@ public class HashTable<T> implements Collection<T> {
 
     @Override
     public Iterator<T> iterator() {
-        return null;
+        return new MyHashTableIterator();
+    }
+    /**
+     * Для реализации обхода коллекции
+     */
+    private class MyHashTableIterator implements Iterator<T>{
+        private int currentIndex = -1; //счетчик по списку
+        private int currentHash = 0; //счетчик по массиву
+        private final int modCount = HashTable.this.modCount;
+        private int count = 0; //количество элементов кэш таблицы
+        @Override
+        public boolean hasNext() {
+            return count < size;
+        }
+
+        @Override
+        public T next() {
+            if (!hasNext()) {
+                throw new NoSuchElementException("Collection is over");
+            }
+            if (modCount != HashTable.this.modCount) {
+                throw new ConcurrentModificationException("Collection size changed during crawl");
+            }
+                //если мы идем по списку
+            if (currentIndex < hashTable[currentHash].size() - 1) {
+                ++currentIndex;
+                //переход к следующему списку
+            } else {
+                ++currentHash;
+                //пропускаем пустые списки
+                while (hashTable[currentHash] == null){
+                   ++currentHash;
+                }
+                currentIndex = 0;
+            }
+
+            ++count;
+            return hashTable[currentIndex].get(currentIndex);
+        }
     }
 
+    /**
+     * Перевод коллекции в массив объектов
+     * @return массив объектов
+     */
     @Override
     public Object[] toArray() {
-        return new Object[0];
+        Object[] array = new Object[size];
+        int i = 0;
+        for(Object elem : hashTable){
+            array[i] = elem;
+            i++;
+        }
+        return array;
     }
 
+    /**
+     * Перевод коллекции в конкретный массив
+     * @param a - массив, в который копируем исходную коллекцию
+     */
     @Override
+    @SuppressWarnings("unchecked")
     public <T1> T1[] toArray(T1[] a) {
-        return null;
+        T1[] asArray = (T1[]) toArray();
+        if (a.length < size){
+            return asArray;
+        }
+        System.arraycopy(asArray,0,a,0,size);
+        return a;
     }
 
     /**
@@ -73,41 +146,128 @@ public class HashTable<T> implements Collection<T> {
             return false;
         }
 
-        int hash = t.hashCode();
+        int hash = getIndex(t);
         if (hashTable[hash] == null) {
             hashTable[hash] = new ArrayList<>();
         }
         hashTable[hash].add(t);
+        size++;
+        modCount++;
         return true;
     }
 
+    /**
+     * Удаление элемента из таблицы
+     * @param o - параметр удаления
+     * @return true - если удалилосьБ false - иначе
+     */
     @Override
     public boolean remove(Object o) {
-        return false;
+        if (!contains(o)) {
+            return false;
+        }
+
+        int hash = getIndex(o);
+        modCount++;
+        size--;
+        return hashTable[hash].remove(o);
     }
 
+    /**
+     * Содержится ли вся коллекция в данной
+     */
     @Override
     public boolean containsAll(Collection<?> c) {
-        return false;
+        if (c == null) {
+            throw new NullPointerException("Collection can't be empty");
+        }
+        if (c.isEmpty()) {
+            return false;
+        }
+        for (Object e : c) {
+            if (!contains(e)) {
+                return false;
+            }
+        }
+        return true;
     }
 
+    /**
+     * Добавление всей коллекции в таблицу
+     * @return true, если все элементы теперь в таблице,
+     * и хотя бы один из них добавился
+     */
     @Override
     public boolean addAll(Collection<? extends T> c) {
-        return false;
+        if (c == null) {
+            throw new NullPointerException("Collection can't be empty");
+        }
+        if (c.isEmpty()) {
+            return false;
+        }
+        boolean flag = false;
+        for (T elem : c){
+            if (add(elem)){
+                flag = true;
+            }
+        }
+
+        return flag;
     }
+    /**
+     * Удаление всей коллекции в таблицу
+     * @return true, если все элементы теперь не в таблице,
+     * и хотя бы один из них удалился
+     */
 
     @Override
     public boolean removeAll(Collection<?> c) {
-        return false;
+        if (c == null) {
+            throw new NullPointerException("Collection can't be empty");
+        }
+        if (c.isEmpty()) {
+            return false;
+        }
+        boolean flag = false;
+        for (Object elem : c){
+            if (remove(elem)){
+                flag = true;
+            }
+        }
+
+        return flag;
     }
 
+    /**
+     * удаляет из этой коллекции все ее элементы,
+     * которые не содержатся в указанной коллекции.
+     *
+     * @param c - коллекция, содержащая элементы, которые будут сохранены в этой коллекции
+     * @return true, если эта коллекция изменилась в результате вызова
+     */
     @Override
     public boolean retainAll(Collection<?> c) {
-        return false;
+        if (c == null) {
+            throw new NullPointerException("Collection can't be empty");
+        }
+        boolean flag = false;
+        for (ArrayList<T> list : hashTable) {
+            if (list != null) {
+                flag = list.retainAll(c);
+                size += list.size();
+                modCount++;
+            }
+        }
+
+        return flag;
     }
 
     @Override
     public void clear() {
-
+        if (size > 0) {
+            ++modCount;
+        }
+        Arrays.fill(hashTable, null);
+        size = 0;
     }
 }

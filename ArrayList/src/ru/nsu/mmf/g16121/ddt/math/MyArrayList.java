@@ -110,13 +110,14 @@ public class MyArrayList<T> implements List<T> {
     }
 
     @Override
-    @SuppressWarnings("unchecked")
     public <S> S[] toArray(S[] array) {
+        @SuppressWarnings("unchecked")
+        S[] asArray = (S[]) toArray();
         if (array.length < size) {
-            return (S[]) Arrays.copyOf(items, size, array.getClass());
+            return asArray;
         }
 
-        System.arraycopy(items, 0, array, 0, size);
+        System.arraycopy(asArray, 0, array, 0, size);
         if (array.length > size) {
             array[size] = null;
         }
@@ -272,7 +273,9 @@ public class MyArrayList<T> implements List<T> {
         if (collection == null) {
             throw new NullPointerException("Collection can't be empty");
         }
-
+        if (collection.isEmpty()) {
+            return false;
+        }
         for (Object e : collection) {
             if (!contains(e)) {
                 return false;
@@ -348,8 +351,8 @@ public class MyArrayList<T> implements List<T> {
     }
 
     /**
-     * Удаляет из этой коллекции все его элементы,
-     * содержащиеся в указанной коллекции последовательно.
+     * Удаляет первое вхождение из этой коллекции,
+     * содержащиеся в указанной коллекции.
      *
      * @param collection - элементы удаления
      * @return true - если удалили элемент, false - иначе
@@ -396,7 +399,9 @@ public class MyArrayList<T> implements List<T> {
      */
     @Override
     public void clear() {
-        modCount++;
+        if (size > 0) {
+            ++modCount;
+        }
         if (size > 0) {
             Arrays.fill(items,  null);
             size = 0;
