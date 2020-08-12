@@ -3,13 +3,13 @@ package ru.nsu.mmf.g16121.ddt.math;
 import java.util.*;
 
 public class HashTable<T> implements Collection<T> {
-    private ArrayList<T>[] hashTable;
+    private final ArrayList<T>[] hashTable;
     private int size;
     private int modCount;
 
     @SuppressWarnings("unchecked")
     public HashTable() {
-        hashTable = (ArrayList<T>[]) new ArrayList[100];
+        hashTable = (ArrayList<T>[]) new ArrayList[10];
     }
 
     @SuppressWarnings("unchecked")
@@ -101,7 +101,7 @@ public class HashTable<T> implements Collection<T> {
             }
 
             ++count;
-            return hashTable[currentIndex].get(currentIndex);
+            return hashTable[currentHash].get(currentIndex);
         }
     }
 
@@ -113,7 +113,7 @@ public class HashTable<T> implements Collection<T> {
     public Object[] toArray() {
         Object[] array = new Object[size];
         int i = 0;
-        for(Object elem : hashTable){
+        for(Object elem : this){
             array[i] = elem;
             i++;
         }
@@ -269,5 +269,24 @@ public class HashTable<T> implements Collection<T> {
         }
         Arrays.fill(hashTable, null);
         size = 0;
+    }
+
+    @Override
+    public String toString(){
+        if (size == 0) {
+            return "[]";
+        }
+        StringBuilder stringBuilder = new StringBuilder();
+        int index = 0;
+        for (ArrayList<T> arrayList : hashTable){
+            if (arrayList != null) {
+                stringBuilder.append(index).append(arrayList.toString()).append('\n');
+            } else {
+                stringBuilder.append(index).append("[]\n");
+            }
+            index++;
+        }
+
+        return stringBuilder.toString();
     }
 }
