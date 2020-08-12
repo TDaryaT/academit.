@@ -87,19 +87,14 @@ public class HashTable<T> implements Collection<T> {
             if (modCount != HashTable.this.modCount) {
                 throw new ConcurrentModificationException("Collection size changed during crawl");
             }
+            while (hashTable[currentHash] == null || hashTable[currentHash].size() - 1 == currentIndex){
+                ++currentHash;
+                currentIndex = -1;
+            }
                 //если мы идем по списку
             if (currentIndex < hashTable[currentHash].size() - 1) {
                 ++currentIndex;
-                //переход к следующему списку
-            } else {
-                ++currentHash;
-                //пропускаем пустые списки
-                while (hashTable[currentHash] == null){
-                   ++currentHash;
-                }
-                currentIndex = 0;
             }
-
             ++count;
             return hashTable[currentHash].get(currentIndex);
         }
@@ -254,7 +249,7 @@ public class HashTable<T> implements Collection<T> {
         for (ArrayList<T> list : hashTable) {
             if (list != null) {
                 flag = list.retainAll(c);
-                size += list.size();
+                size -= list.size();
                 modCount++;
             }
         }

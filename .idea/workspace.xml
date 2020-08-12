@@ -259,38 +259,38 @@
       <screen x="16" y="26" width="1584" height="850" />
     </state>
     <state x="541" y="201" width="526" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/16.26.1584.850@16.26.1584.850" timestamp="1597077488910" />
-    <state width="1538" height="111" key="GridCell.Tab.0.bottom" timestamp="1597248784683">
+    <state width="1538" height="224" key="GridCell.Tab.0.bottom" timestamp="1597262890677">
       <screen x="16" y="26" width="1584" height="850" />
     </state>
-    <state width="1538" height="111" key="GridCell.Tab.0.bottom/16.26.1584.850@16.26.1584.850" timestamp="1597248784683" />
-    <state width="1538" height="111" key="GridCell.Tab.0.center" timestamp="1597248784682">
+    <state width="1538" height="224" key="GridCell.Tab.0.bottom/16.26.1584.850@16.26.1584.850" timestamp="1597262890677" />
+    <state width="1538" height="224" key="GridCell.Tab.0.center" timestamp="1597262890676">
       <screen x="16" y="26" width="1584" height="850" />
     </state>
-    <state width="1538" height="111" key="GridCell.Tab.0.center/16.26.1584.850@16.26.1584.850" timestamp="1597248784682" />
-    <state width="1538" height="111" key="GridCell.Tab.0.left" timestamp="1597248784681">
+    <state width="1538" height="224" key="GridCell.Tab.0.center/16.26.1584.850@16.26.1584.850" timestamp="1597262890676" />
+    <state width="1538" height="224" key="GridCell.Tab.0.left" timestamp="1597262890675">
       <screen x="16" y="26" width="1584" height="850" />
     </state>
-    <state width="1538" height="111" key="GridCell.Tab.0.left/16.26.1584.850@16.26.1584.850" timestamp="1597248784681" />
-    <state width="1538" height="111" key="GridCell.Tab.0.right" timestamp="1597248784682">
+    <state width="1538" height="224" key="GridCell.Tab.0.left/16.26.1584.850@16.26.1584.850" timestamp="1597262890675" />
+    <state width="1538" height="224" key="GridCell.Tab.0.right" timestamp="1597262890677">
       <screen x="16" y="26" width="1584" height="850" />
     </state>
-    <state width="1538" height="111" key="GridCell.Tab.0.right/16.26.1584.850@16.26.1584.850" timestamp="1597248784682" />
-    <state width="1538" height="263" key="GridCell.Tab.1.bottom" timestamp="1597188917713">
+    <state width="1538" height="224" key="GridCell.Tab.0.right/16.26.1584.850@16.26.1584.850" timestamp="1597262890677" />
+    <state width="1538" height="224" key="GridCell.Tab.1.bottom" timestamp="1597262890679">
       <screen x="16" y="26" width="1584" height="850" />
     </state>
-    <state width="1538" height="263" key="GridCell.Tab.1.bottom/16.26.1584.850@16.26.1584.850" timestamp="1597188917713" />
-    <state width="1538" height="263" key="GridCell.Tab.1.center" timestamp="1597188917711">
+    <state width="1538" height="224" key="GridCell.Tab.1.bottom/16.26.1584.850@16.26.1584.850" timestamp="1597262890679" />
+    <state width="1538" height="224" key="GridCell.Tab.1.center" timestamp="1597262890678">
       <screen x="16" y="26" width="1584" height="850" />
     </state>
-    <state width="1538" height="263" key="GridCell.Tab.1.center/16.26.1584.850@16.26.1584.850" timestamp="1597188917711" />
-    <state width="1538" height="263" key="GridCell.Tab.1.left" timestamp="1597188917710">
+    <state width="1538" height="224" key="GridCell.Tab.1.center/16.26.1584.850@16.26.1584.850" timestamp="1597262890678" />
+    <state width="1538" height="224" key="GridCell.Tab.1.left" timestamp="1597262890678">
       <screen x="16" y="26" width="1584" height="850" />
     </state>
-    <state width="1538" height="263" key="GridCell.Tab.1.left/16.26.1584.850@16.26.1584.850" timestamp="1597188917710" />
-    <state width="1538" height="263" key="GridCell.Tab.1.right" timestamp="1597188917712">
+    <state width="1538" height="224" key="GridCell.Tab.1.left/16.26.1584.850@16.26.1584.850" timestamp="1597262890678" />
+    <state width="1538" height="224" key="GridCell.Tab.1.right" timestamp="1597262890678">
       <screen x="16" y="26" width="1584" height="850" />
     </state>
-    <state width="1538" height="263" key="GridCell.Tab.1.right/16.26.1584.850@16.26.1584.850" timestamp="1597188917712" />
+    <state width="1538" height="224" key="GridCell.Tab.1.right/16.26.1584.850@16.26.1584.850" timestamp="1597262890678" />
     <state x="391" y="198" width="826" height="508" key="IDE.errors.dialog" timestamp="1596829404839">
       <screen x="16" y="26" width="1584" height="850" />
     </state>
@@ -303,14 +303,30 @@
       <screen x="16" y="26" width="1584" height="850" />
     </state>
     <state x="498" y="199" width="612" height="507" key="refactoring.ChangeSignatureDialog/16.26.1584.850@16.26.1584.850" timestamp="1596807503641" />
-    <state x="75" y="202" key="run.anything.popup" timestamp="1597168332065">
+    <state x="75" y="202" key="run.anything.popup" timestamp="1597253426411">
       <screen x="16" y="26" width="1584" height="850" />
     </state>
-    <state x="75" y="202" key="run.anything.popup/16.26.1584.850@16.26.1584.850" timestamp="1597168332065" />
+    <state x="75" y="202" key="run.anything.popup/16.26.1584.850@16.26.1584.850" timestamp="1597253426411" />
     <state x="471" y="197" width="672" height="678" key="search.everywhere.popup" timestamp="1597166551993">
       <screen x="16" y="26" width="1584" height="850" />
     </state>
     <state x="471" y="197" width="672" height="678" key="search.everywhere.popup/16.26.1584.850@16.26.1584.850" timestamp="1597166551993" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/HashTable/src/ru/nsu/mmf/g16121/ddt/math/HashTable.java</url>
+          <line>124</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/HashTable/src/ru/nsu/mmf/g16121/ddt/math/HashTable.java</url>
+          <line>89</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="masterDetails">
     <states>
