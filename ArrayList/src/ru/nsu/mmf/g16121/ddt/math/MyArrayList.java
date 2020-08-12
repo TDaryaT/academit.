@@ -176,8 +176,8 @@ public class MyArrayList<T> implements List<T> {
      * Можно использовать эту операцию для минимизации хранения экземпляра ArrayList.
      */
     public void trimToSize() {
-        if(size < items.length){
-        items = Arrays.copyOf(items, size);
+        if (size < items.length) {
+            items = Arrays.copyOf(items, size);
         }
     }
 
@@ -403,7 +403,7 @@ public class MyArrayList<T> implements List<T> {
             ++modCount;
         }
         if (size > 0) {
-            Arrays.fill(items,  null);
+            Arrays.fill(items, null);
             size = 0;
         }
     }

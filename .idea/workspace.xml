@@ -23,9 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fa2b5c0-671c-4c09-8a15-7f14e7b07dff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ConvertingTemperature/ConvertingTemperature.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConvertingTemperature/src/ru/nsu/mmf/g16121/ddt/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HashTable/src/ru/nsu/mmf/g16121/ddt/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/HashTable/src/ru/nsu/mmf/g16121/ddt/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HashTable/src/ru/nsu/mmf/g16121/ddt/math/HashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/HashTable/src/ru/nsu/mmf/g16121/ddt/math/HashTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArrayList/src/ru/nsu/mmf/g16121/ddt/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ArrayList/src/ru/nsu/mmf/g16121/ddt/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArrayList/src/ru/nsu/mmf/g16121/ddt/math/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/ArrayList/src/ru/nsu/mmf/g16121/ddt/math/MyArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSVinHtml.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +55,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="11" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -58,26 +64,13 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.nsu.mmf.g16121.ddt.main.Main" />
       <module name="List" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.nsu.mmf.g16121.ddt.main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.nsu.mmf.g16121.ddt.math.Main" />
-      <module name="Matrix" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.nsu.mmf.g16121.ddt.math.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,6 +107,19 @@
     <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.nsu.mmf.g16121.ddt.main.Main" />
       <module name="ArrayList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.nsu.mmf.g16121.ddt.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.nsu.mmf.g16121.ddt.main.Main" />
+      <module name="ConvertingTemperature" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.nsu.mmf.g16121.ddt.main.*" />
@@ -204,11 +210,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -259,22 +265,22 @@
       <screen x="16" y="26" width="1584" height="850" />
     </state>
     <state x="541" y="201" width="526" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/16.26.1584.850@16.26.1584.850" timestamp="1597077488910" />
-    <state width="1538" height="224" key="GridCell.Tab.0.bottom" timestamp="1597262890677">
+    <state width="744" height="192" key="GridCell.Tab.0.bottom" timestamp="1597274924482">
       <screen x="16" y="26" width="1584" height="850" />
     </state>
-    <state width="1538" height="224" key="GridCell.Tab.0.bottom/16.26.1584.850@16.26.1584.850" timestamp="1597262890677" />
-    <state width="1538" height="224" key="GridCell.Tab.0.center" timestamp="1597262890676">
+    <state width="744" height="192" key="GridCell.Tab.0.bottom/16.26.1584.850@16.26.1584.850" timestamp="1597274924482" />
+    <state width="744" height="192" key="GridCell.Tab.0.center" timestamp="1597274924481">
       <screen x="16" y="26" width="1584" height="850" />
     </state>
-    <state width="1538" height="224" key="GridCell.Tab.0.center/16.26.1584.850@16.26.1584.850" timestamp="1597262890676" />
-    <state width="1538" height="224" key="GridCell.Tab.0.left" timestamp="1597262890675">
+    <state width="744" height="192" key="GridCell.Tab.0.center/16.26.1584.850@16.26.1584.850" timestamp="1597274924481" />
+    <state width="744" height="192" key="GridCell.Tab.0.left" timestamp="1597274924480">
       <screen x="16" y="26" width="1584" height="850" />
     </state>
-    <state width="1538" height="224" key="GridCell.Tab.0.left/16.26.1584.850@16.26.1584.850" timestamp="1597262890675" />
-    <state width="1538" height="224" key="GridCell.Tab.0.right" timestamp="1597262890677">
+    <state width="744" height="192" key="GridCell.Tab.0.left/16.26.1584.850@16.26.1584.850" timestamp="1597274924480" />
+    <state width="744" height="192" key="GridCell.Tab.0.right" timestamp="1597274924482">
       <screen x="16" y="26" width="1584" height="850" />
     </state>
-    <state width="1538" height="224" key="GridCell.Tab.0.right/16.26.1584.850@16.26.1584.850" timestamp="1597262890677" />
+    <state width="744" height="192" key="GridCell.Tab.0.right/16.26.1584.850@16.26.1584.850" timestamp="1597274924482" />
     <state width="1538" height="224" key="GridCell.Tab.1.bottom" timestamp="1597262890679">
       <screen x="16" y="26" width="1584" height="850" />
     </state>
@@ -299,6 +305,10 @@
       <screen x="16" y="26" width="1584" height="850" />
     </state>
     <state x="297" y="87" key="SettingsEditor/16.26.1584.850@16.26.1584.850" timestamp="1596900154930" />
+    <state x="117" y="54" width="1374" height="796" key="new project wizard" timestamp="1597266288207">
+      <screen x="16" y="26" width="1584" height="850" />
+    </state>
+    <state x="117" y="54" width="1374" height="796" key="new project wizard/16.26.1584.850@16.26.1584.850" timestamp="1597266288207" />
     <state x="498" y="199" width="612" height="507" key="refactoring.ChangeSignatureDialog" timestamp="1596807503641">
       <screen x="16" y="26" width="1584" height="850" />
     </state>
@@ -311,22 +321,6 @@
       <screen x="16" y="26" width="1584" height="850" />
     </state>
     <state x="471" y="197" width="672" height="678" key="search.everywhere.popup/16.26.1584.850@16.26.1584.850" timestamp="1597166551993" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/HashTable/src/ru/nsu/mmf/g16121/ddt/math/HashTable.java</url>
-          <line>124</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/HashTable/src/ru/nsu/mmf/g16121/ddt/math/HashTable.java</url>
-          <line>89</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="masterDetails">
     <states>

@@ -2,18 +2,20 @@ package ru.nsu.mmf.g16121.ddt.main;
 
 import ru.nsu.mmf.g16121.ddt.math.MyArrayList;
 
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
         MyArrayList<String> myArrayList1 = new MyArrayList<>();
         System.out.println("Пример 1:");
         System.out.println("Пустой конструктор: " + myArrayList1.toString());
-        System.out.println("Пустая ли коллекция? "+ myArrayList1.isEmpty());
+        System.out.println("Пустая ли коллекция? " + myArrayList1.isEmpty());
         System.out.println();
 
         myArrayList1.add("Hello");
         myArrayList1.add("world");
         System.out.println("Добавили два слова в коллекцию: " + myArrayList1.toString());
-        System.out.println("Пустая ли коллекция? "+ myArrayList1.isEmpty());
+        System.out.println("Пустая ли коллекция? " + myArrayList1.isEmpty());
         System.out.println();
 
         System.out.println("Размер коллекции: " + myArrayList1.size());
@@ -23,23 +25,17 @@ public class Main {
         System.out.println();
 
         System.out.println("Метод toArray():");
-        String[] array1 = myArrayList1.toArray(new String[0]);
-        for (String item : array1) {
-            System.out.println(item);
-        }
+        System.out.println(Arrays.toString(myArrayList1.toArray()));
         System.out.println();
 
         System.out.println("Метод toArray(S[] a)");
-        String[] array2 = new String[myArrayList1.size()];
+        String[] array2 = new String[3];
         array2 = myArrayList1.toArray(array2);
-
-        for (String item : array2) {
-            System.out.println(item);
-        }
+        System.out.println(Arrays.toString(array2));
         System.out.println();
 
         System.out.print("Работа итератора: ");
-        for (String elem : myArrayList1){
+        for (String elem : myArrayList1) {
             System.out.print(elem);
             System.out.print(" ");
         }
@@ -55,7 +51,7 @@ public class Main {
         myArrayList2.add(4);
         myArrayList2.add(3);
         System.out.println("Добавили 3 элемента в коллекцию: " + myArrayList2.toString());
-        System.out.println("Пустой ли массив? "+ myArrayList2.isEmpty());
+        System.out.println("Пустой ли массив? " + myArrayList2.isEmpty());
         System.out.println();
 
         System.out.println("Индекс элемента " + 3 + " с начала коллекции: " + myArrayList2.indexOf(3));
@@ -69,7 +65,7 @@ public class Main {
         System.out.println();
 
         System.out.print("Запишем в первый элемент число " + 6 + ": ");
-        myArrayList2.set(0,6);
+        myArrayList2.set(0, 6);
         System.out.println(myArrayList2.toString());
         System.out.println();
 
@@ -82,7 +78,7 @@ public class Main {
         System.out.println();
 
         System.out.print("Вставим элемент " + 7 + " по индексу " + 1 + ": ");
-        myArrayList2.add(1,7);
+        myArrayList2.add(1, 7);
         System.out.println(myArrayList2.toString());
 
         System.out.print("Удалим элемент по индексу " + 0 + " элемент " + myArrayList2.remove(0) + ": ");
@@ -97,9 +93,9 @@ public class Main {
         MyArrayList<Integer> myArrayList3 = new MyArrayList<>();
         myArrayList3.addAll(myArrayList2);
         System.out.println("Добавили коллекцию 2 в коллекцию 3: " + myArrayList3.toString());
-        System.out.println("Есть ли коллекция 2 в коллекции 3? "+ myArrayList3.containsAll(myArrayList2));
-        System.out.println("Есть ли коллекция 1 в коллекции 3? "+ myArrayList3.containsAll(myArrayList1));
-        myArrayList3.addAll(1,myArrayList2);
+        System.out.println("Есть ли коллекция 2 в коллекции 3? " + myArrayList3.containsAll(myArrayList2));
+        System.out.println("Есть ли коллекция 1 в коллекции 3? " + myArrayList3.containsAll(myArrayList1));
+        myArrayList3.addAll(1, myArrayList2);
         System.out.println("Добавили коллекцию 2 в коллекцию 3 начиная с индекса 1: " + myArrayList3.toString());
         System.out.println();
 
