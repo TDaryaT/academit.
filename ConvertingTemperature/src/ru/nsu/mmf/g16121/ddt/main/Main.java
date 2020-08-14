@@ -3,7 +3,6 @@ package ru.nsu.mmf.g16121.ddt.main;
 import ru.nsu.mmf.g16121.ddt.util.ConvertingTemperature;
 
 import javax.swing.*;
-import java.awt.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -16,7 +15,7 @@ public class Main {
                 frame.setVisible(true);
                 frame.action();
             });
-        } catch (Exception e) {
+        } catch (Exception ignored) {
         }
     }
 }

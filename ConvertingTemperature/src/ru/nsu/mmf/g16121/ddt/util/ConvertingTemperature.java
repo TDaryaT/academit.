@@ -2,8 +2,7 @@ package ru.nsu.mmf.g16121.ddt.util;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.util.Locale;
 
 public class ConvertingTemperature extends JFrame {
     //Создание компонент
@@ -38,7 +37,7 @@ public class ConvertingTemperature extends JFrame {
         result = new JLabel("Result: ");
         JLabel enterTemp = new JLabel("Enter temperature");
         textField = new JTextField("", 11);
-        String[] dimensions = {"","Celsius", "Fahrenheit","Kelvin"};
+        String[] dimensions = {"", "Celsius", "Fahrenheit", "Kelvin"};
         dimensionFrom = new JComboBox<>(dimensions);
         dimensionTo = new JComboBox<>(dimensions);
         find = new JButton("Find");
@@ -92,7 +91,7 @@ public class ConvertingTemperature extends JFrame {
                     case 'C':
                         return 5.0 * (temp - 32.0) / 9.0;
                     case 'K':
-                        return 273.15 + 5.0 * (32.0 * temp - 32.0) / 9.0;
+                        return 273.15 + 5.0 * (temp - 32.0) / 9.0;
                     default:
                         throw new IllegalArgumentException("You can use only F, C or K");
                 }
@@ -101,16 +100,16 @@ public class ConvertingTemperature extends JFrame {
                     case 'F':
                         return temp * 1.8 + 32.0;
                     case 'K':
-                        return temp - 273.15;
+                        return temp + 273.15;
                     default:
                         throw new IllegalArgumentException("You can use only F, C or K");
                 }
             case 'K':
                 switch (to) {
                     case 'F':
-                        return 1.8 * (temp - 273.0) + 32.0;
+                        return 1.8 * (temp - 273.15) + 32.0;
                     case 'C':
-                        return temp + 273.15;
+                        return temp - 273.15;
                     default:
                         throw new IllegalArgumentException("You can use only F, C or K");
                 }
@@ -119,35 +118,82 @@ public class ConvertingTemperature extends JFrame {
         }
     }
 
-    public void action() {
-        final String[] from = {""};
-        final String[] to = {""};
-        dimensionFrom.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                from[0] = (String) dimensionFrom.getSelectedItem();
-            }
-        });
-        dimensionTo.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                to[0] = (String) dimensionTo.getSelectedItem();
-            }
-        });
-        find.addActionListener(e -> {
-            String text = textField.getText();
-            double temp = Double.parseDouble(text);
+    public static boolean isNumeric(String str)
+    {
+        return str.matches("-?\\d+(\\.\\d+)?");  //match a number with optional '-' and decimal.
+    }
 
-            if (!text.isEmpty()) {
-                double newTemp = convertTemp(temp, from[0].charAt(0), to[0].charAt(0));
-                result.setText("Result: " + newTemp);
-            }
-        });
-        cancel.addActionListener(e -> {
-            textField.setText("");
-            result.setText("Result: ");
-            dimensionFrom.setSelectedIndex(0);
-            dimensionTo.setSelectedIndex(0);
-        });
+    public void action() {
+            final String[] from = {""};
+            final String[] to = {""};
+            dimensionFrom.addActionListener(e -> from[0] = (String) dimensionFrom.getSelectedItem());
+            dimensionTo.addActionListener(e -> to[0] = (String) dimensionTo.getSelectedItem());
+            find.addActionListener(e -> {
+                try {
+                    String text = textField.getText();
+                    double temp = Double.parseDouble(text);
+                    double newTemp = convertTemp(temp, from[0].charAt(0), to[0].charAt(0));
+                    result.setText("Result: " + String.format(Locale.US, "%.2f", newTemp));
+                } catch (NumberFormatException | NullPointerException nfe) {
+                    ExceptionGUI exceptionGUI = new ExceptionGUI("Enter a number!");
+                    exceptionGUI.setVisible(true);
+                    exceptionGUI.action();
+                } catch (IndexOutOfBoundsException err){
+                    ExceptionGUI exceptionGUI = new ExceptionGUI("Select dimensions!");
+                    exceptionGUI.setVisible(true);
+                    exceptionGUI.action();
+                }
+            });
+            cancel.addActionListener(e -> {
+                textField.setText("");
+                result.setText("Result: ");
+                dimensionFrom.setSelectedIndex(0);
+                dimensionTo.setSelectedIndex(0);
+            });
+
+    }
+    private static class ExceptionGUI extends JFrame{
+        private final JButton ok;
+
+        public ExceptionGUI(String text){
+            super();
+            this.setTitle("Convert temperature: Exception");
+
+            int width = 200;
+            int height = 200;
+            this.setSize(width, height);
+            //this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+            //положение окна относительно размера экрана
+            Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
+            int ScreenWidth = screenSize.width;
+            int ScreenHeight = screenSize.height;
+            this.setLocation(ScreenWidth / 2 - width / 2, ScreenHeight / 2 - height / 2);
+
+            //задаем иконку
+            String path = "//home//dasha//IdeaProjects//academit.//ConvertingTemperature//iconError.jpg";
+            Image img = Toolkit.getDefaultToolkit().getImage(path);
+            this.setIconImage(img);
+
+            //Создание компонент
+            ok = new JButton("Ok");
+            JLabel labelText = new JLabel(text);
+
+            //подключение менеджера компоновки
+            JPanel panel = new JPanel();
+            BoxLayout layout = new BoxLayout(panel, BoxLayout.Y_AXIS);
+            panel.setLayout(layout);
+            labelText.setAlignmentX(Component.CENTER_ALIGNMENT);
+            panel.add(labelText);
+            ok.setAlignmentX(Component.CENTER_ALIGNMENT);
+            panel.add(ok);
+            this.add(panel);
+
+            this.pack();
+        }
+
+        public void action(){
+            ok.addActionListener(e -> this.setVisible(false));
+        }
     }
 }
