@@ -199,7 +199,7 @@ Tasks:
  * Если ввели не число, выводит ошибку
  * Использованы layout manager’ы
 
-![Image](https://github.com/TDaryaT/academit./ConvTemp.png)
+![Image](https://github.com/TDaryaT/academit./blob/master/ConvTemp.png)
 
 ## Was used:
 
