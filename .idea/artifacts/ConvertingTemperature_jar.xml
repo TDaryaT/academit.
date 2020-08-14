@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="ConvertingTemperature:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ConvertingTemperature_jar</output-path>
+    <root id="archive" name="ConvertingTemperature.jar">
+      <element id="module-output" name="ConvertingTemperature" />
+    </root>
+  </artifact>
+</component>

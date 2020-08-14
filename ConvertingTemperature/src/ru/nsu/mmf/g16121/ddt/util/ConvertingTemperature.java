@@ -4,6 +4,19 @@ import javax.swing.*;
 import java.awt.*;
 import java.util.Locale;
 
+/**
+ * Class for Converting Temperature. Swing forms
+ *
+ * Функциональность:
+ *
+ * Ввод температуры в поле ввода
+ * Кнопка, которая переводит температуру из одной шкалы в другую
+ * Результат перевода выводится на форму, не редактируемый
+ * Можно задать из какой шкалы и в какую переводить
+ * Доступные шкалы: цельсия, фаренгейта, кельвина
+ * Если ввели не число, выводит ошибку
+ * Использованы layout manager’ы
+ */
 public class ConvertingTemperature extends JFrame {
     //Создание компонент
     private final JButton find;
@@ -118,11 +131,6 @@ public class ConvertingTemperature extends JFrame {
         }
     }
 
-    public static boolean isNumeric(String str)
-    {
-        return str.matches("-?\\d+(\\.\\d+)?");  //match a number with optional '-' and decimal.
-    }
-
     public void action() {
             final String[] from = {""};
             final String[] to = {""};
@@ -135,13 +143,13 @@ public class ConvertingTemperature extends JFrame {
                     double newTemp = convertTemp(temp, from[0].charAt(0), to[0].charAt(0));
                     result.setText("Result: " + String.format(Locale.US, "%.2f", newTemp));
                 } catch (NumberFormatException | NullPointerException nfe) {
-                    ExceptionGUI exceptionGUI = new ExceptionGUI("Enter a number!");
-                    exceptionGUI.setVisible(true);
-                    exceptionGUI.action();
+                    JFrame frame = new JFrame();
+                    JOptionPane.showMessageDialog(frame,
+                            "Enter a number!");
                 } catch (IndexOutOfBoundsException err){
-                    ExceptionGUI exceptionGUI = new ExceptionGUI("Select dimensions!");
-                    exceptionGUI.setVisible(true);
-                    exceptionGUI.action();
+                    JFrame frame = new JFrame();
+                    JOptionPane.showMessageDialog(frame,
+                            "Select a dimension!");
                 }
             });
             cancel.addActionListener(e -> {
@@ -151,49 +159,5 @@ public class ConvertingTemperature extends JFrame {
                 dimensionTo.setSelectedIndex(0);
             });
 
-    }
-    private static class ExceptionGUI extends JFrame{
-        private final JButton ok;
-
-        public ExceptionGUI(String text){
-            super();
-            this.setTitle("Convert temperature: Exception");
-
-            int width = 200;
-            int height = 200;
-            this.setSize(width, height);
-            //this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-
-            //положение окна относительно размера экрана
-            Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
-            int ScreenWidth = screenSize.width;
-            int ScreenHeight = screenSize.height;
-            this.setLocation(ScreenWidth / 2 - width / 2, ScreenHeight / 2 - height / 2);
-
-            //задаем иконку
-            String path = "//home//dasha//IdeaProjects//academit.//ConvertingTemperature//iconError.jpg";
-            Image img = Toolkit.getDefaultToolkit().getImage(path);
-            this.setIconImage(img);
-
-            //Создание компонент
-            ok = new JButton("Ok");
-            JLabel labelText = new JLabel(text);
-
-            //подключение менеджера компоновки
-            JPanel panel = new JPanel();
-            BoxLayout layout = new BoxLayout(panel, BoxLayout.Y_AXIS);
-            panel.setLayout(layout);
-            labelText.setAlignmentX(Component.CENTER_ALIGNMENT);
-            panel.add(labelText);
-            ok.setAlignmentX(Component.CENTER_ALIGNMENT);
-            panel.add(ok);
-            this.add(panel);
-
-            this.pack();
-        }
-
-        public void action(){
-            ok.addActionListener(e -> this.setVisible(false));
-        }
     }
 }

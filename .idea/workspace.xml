@@ -23,8 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fa2b5c0-671c-4c09-8a15-7f14e7b07dff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ConvertingTemperature_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConvertingTemperature/src/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConvertingTemperature/src/ru/nsu/mmf/g16121/ddt/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConvertingTemperature/src/ru/nsu/mmf/g16121/ddt/main/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConvertingTemperature/src/ru/nsu/mmf/g16121/ddt/util/ConvertingTemperature.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConvertingTemperature/src/ru/nsu/mmf/g16121/ddt/util/ConvertingTemperature.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +38,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -54,11 +56,16 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.nsu.mmf.g16121.ddt.util" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -249,6 +256,10 @@
       <screen x="16" y="26" width="1584" height="850" />
     </state>
     <state x="616" y="160" width="567" height="585" key="#com.intellij.ide.util.MemberChooser/16.26.1584.850@16.26.1584.850" timestamp="1597418668736" />
+    <state x="539" y="246" width="527" height="416" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1597430014934">
+      <screen x="16" y="26" width="1584" height="850" />
+    </state>
+    <state x="539" y="246" width="527" height="416" key="#com.intellij.ide.util.TreeClassChooserDialog/16.26.1584.850@16.26.1584.850" timestamp="1597430014934" />
     <state x="561" y="320" width="494" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1597070289275">
       <screen x="16" y="26" width="1584" height="850" />
     </state>
@@ -257,26 +268,26 @@
       <screen x="16" y="26" width="1584" height="850" />
     </state>
     <state x="832" y="26" width="736" height="850" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/16.26.1584.850@16.26.1584.850" timestamp="1597181609374" />
-    <state x="541" y="201" width="526" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597077488910">
+    <state x="541" y="201" width="526" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597429564158">
       <screen x="16" y="26" width="1584" height="850" />
     </state>
-    <state x="541" y="201" width="526" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/16.26.1584.850@16.26.1584.850" timestamp="1597077488910" />
-    <state width="1538" height="191" key="GridCell.Tab.0.bottom" timestamp="1597426084443">
+    <state x="541" y="201" width="526" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/16.26.1584.850@16.26.1584.850" timestamp="1597429564158" />
+    <state width="1538" height="191" key="GridCell.Tab.0.bottom" timestamp="1597431100721">
       <screen x="16" y="26" width="1584" height="850" />
     </state>
-    <state width="1538" height="191" key="GridCell.Tab.0.bottom/16.26.1584.850@16.26.1584.850" timestamp="1597426084443" />
-    <state width="1538" height="191" key="GridCell.Tab.0.center" timestamp="1597426084441">
+    <state width="1538" height="191" key="GridCell.Tab.0.bottom/16.26.1584.850@16.26.1584.850" timestamp="1597431100721" />
+    <state width="1538" height="191" key="GridCell.Tab.0.center" timestamp="1597431100721">
       <screen x="16" y="26" width="1584" height="850" />
     </state>
-    <state width="1538" height="191" key="GridCell.Tab.0.center/16.26.1584.850@16.26.1584.850" timestamp="1597426084441" />
-    <state width="1538" height="191" key="GridCell.Tab.0.left" timestamp="1597426084441">
+    <state width="1538" height="191" key="GridCell.Tab.0.center/16.26.1584.850@16.26.1584.850" timestamp="1597431100721" />
+    <state width="1538" height="191" key="GridCell.Tab.0.left" timestamp="1597431100720">
       <screen x="16" y="26" width="1584" height="850" />
     </state>
-    <state width="1538" height="191" key="GridCell.Tab.0.left/16.26.1584.850@16.26.1584.850" timestamp="1597426084441" />
-    <state width="1538" height="191" key="GridCell.Tab.0.right" timestamp="1597426084443">
+    <state width="1538" height="191" key="GridCell.Tab.0.left/16.26.1584.850@16.26.1584.850" timestamp="1597431100720" />
+    <state width="1538" height="191" key="GridCell.Tab.0.right" timestamp="1597431100721">
       <screen x="16" y="26" width="1584" height="850" />
     </state>
-    <state width="1538" height="191" key="GridCell.Tab.0.right/16.26.1584.850@16.26.1584.850" timestamp="1597426084443" />
+    <state width="1538" height="191" key="GridCell.Tab.0.right/16.26.1584.850@16.26.1584.850" timestamp="1597431100721" />
     <state width="1538" height="224" key="GridCell.Tab.1.bottom" timestamp="1597262890679">
       <screen x="16" y="26" width="1584" height="850" />
     </state>
@@ -297,10 +308,10 @@
       <screen x="16" y="26" width="1584" height="850" />
     </state>
     <state x="391" y="198" width="826" height="508" key="IDE.errors.dialog/16.26.1584.850@16.26.1584.850" timestamp="1596829404839" />
-    <state x="297" y="87" key="SettingsEditor" timestamp="1597415787305">
+    <state x="770" y="26" width="792" height="850" key="SettingsEditor" timestamp="1597430262334">
       <screen x="16" y="26" width="1584" height="850" />
     </state>
-    <state x="297" y="87" key="SettingsEditor/16.26.1584.850@16.26.1584.850" timestamp="1597415787305" />
+    <state x="770" y="26" width="792" height="850" key="SettingsEditor/16.26.1584.850@16.26.1584.850" timestamp="1597430262334" />
     <state x="117" y="54" width="1374" height="796" key="new project wizard" timestamp="1597266288207">
       <screen x="16" y="26" width="1584" height="850" />
     </state>
@@ -317,79 +328,5 @@
       <screen x="16" y="26" width="1584" height="850" />
     </state>
     <state x="471" y="197" width="672" height="678" key="search.everywhere.popup/16.26.1584.850@16.26.1584.850" timestamp="1597166551993" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>11</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>Matrix</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
