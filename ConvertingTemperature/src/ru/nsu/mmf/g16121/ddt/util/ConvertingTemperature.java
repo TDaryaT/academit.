@@ -4,19 +4,6 @@ import javax.swing.*;
 import java.awt.*;
 import java.util.Locale;
 
-/**
- * Class for Converting Temperature. Swing forms
- *
- * Функциональность:
- *
- * Ввод температуры в поле ввода
- * Кнопка, которая переводит температуру из одной шкалы в другую
- * Результат перевода выводится на форму, не редактируемый
- * Можно задать из какой шкалы и в какую переводить
- * Доступные шкалы: цельсия, фаренгейта, кельвина
- * Если ввели не число, выводит ошибку
- * Использованы layout manager’ы
- */
 public class ConvertingTemperature extends JFrame {
     //Создание компонент
     private final JButton find;
