@@ -12,7 +12,6 @@ Tasks:
 7. Class ArrayList
 8. Class HashTable
 9. Swing/Windows Forms for converting temperature 
-10. Sapper game
 
 ## More about tasks:
 
