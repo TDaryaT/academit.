@@ -202,6 +202,6 @@ Tasks:
 
 ## Was used:
 
-* Virtual Machine - [SE JDK 11.0.7](https://www.oracle.com/java/technologies/javase-downloads.html)
+* [SE JDK 11.0.7](https://www.oracle.com/java/technologies/javase-downloads.html)
 
 * IDE - [IntelliJ IDEA](https://www.jetbrains.com/idea/download/#section=linux)
