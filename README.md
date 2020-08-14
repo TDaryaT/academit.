@@ -11,7 +11,7 @@ Tasks:
 6. Class List
 7. Class ArrayList
 8. Class HashTable
-9. Swing/Windows Forms for converting temperature 
+9. Swing for converting temperature 
 
 ## More about tasks:
 
