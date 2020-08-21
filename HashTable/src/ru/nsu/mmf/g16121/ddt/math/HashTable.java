@@ -26,7 +26,7 @@ public class HashTable<T> implements Collection<T> {
     }
 
     /**
-     * Приведение кэша к размеру кэш-таблицы
+     * Приведение хэша к размеру хэш-таблицы
      * @param o - объект, для которого хотим определить позицию в таблице
      * @return индекс для объекта в таблице
      */
@@ -73,7 +73,7 @@ public class HashTable<T> implements Collection<T> {
         private int currentIndex = -1; //счетчик по списку
         private int currentHash = 0; //счетчик по массиву
         private final int modCount = HashTable.this.modCount;
-        private int count = 0; //количество элементов кэш таблицы
+        private int count = 0; //количество элементов хэш-таблицы
         @Override
         public boolean hasNext() {
             return count < size;
